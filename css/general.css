@@ -150,31 +150,6 @@ body,html{
     color:#1abc9c
 }
 .box-icon{
-    height:150px;
-    width:150px;
-    -moz-border-radius:35px;
-    border-radius:100%;
-    padding:47px 10px;
-    background-color:#f0f1ec;
-    color:#034b81;
-    text-align:center;
-    -webkit-transition:all .3s;
-    -moz-transition:all .3s;
-    transition:all .3s;
-    margin-right:15px
-}
-.box-icon:hover{
-    background-color:#1abc9c;
-    color:#fff
-}
-
-.img-centered {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.philo-icon{
     height:100px;
     width:100px;
     -moz-border-radius:35px;
@@ -190,10 +165,21 @@ body,html{
     margin-right: auto;
     margin-left: auto;
 }
-.philo-icon:hover{
+.box-icon:hover{
     background-color:#1abc9c;
     color:#fff
 }
+
+.img-centered {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.push-down {
+    margin-top: 30px;
+}
+
 .owl-theme .owl-controls .owl-page span{
     background:#1abc9c!important
 }
