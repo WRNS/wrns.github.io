@@ -95,7 +95,7 @@ body,html{
     filter:alpha(opacity=95)!important;
 }
 .item .img-responsive{
-    cursor:url(http://www.andreagalanti.it/flatfy/img/xcross.png.pagespeed.ic._3F0ZNS5h_.png),auto
+    cursor:url(../img/cross.png),auto;
 }
 #preloader{
     position:fixed;
@@ -112,7 +112,7 @@ body,html{
     position:absolute;
     left:50%;
     top:50%;
-    background-image:url(http://www.andreagalanti.it/flatfy/img/status.gif.pagespeed.ce.IwYOwjBEvL.gif);
+    background-image:url(../img/status.gif);
     background-repeat:no-repeat;
     background-position:center;
     margin:-100px 0 0 -100px;
