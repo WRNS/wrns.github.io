@@ -170,6 +170,17 @@ body,html{
     color:#fff
 }
 
+.no-padding{
+    padding: 0px !important;
+}
+
+.number-icon {
+    font-family: veneer;
+    letter-spacing:3px;
+    font-size: 42pt;
+
+}
+
 .img-centered {
     display: block;
     margin-right: auto;
@@ -215,7 +226,7 @@ body,html{
     font-weight:400!important
 }
 .lead{
-    font-size:16px;
+    font-size:20px;
     font-weight:400
 }
 .intro-header{
