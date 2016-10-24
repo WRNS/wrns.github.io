@@ -12,7 +12,7 @@ var announcements = [
 ];
 $.each(announcements, function(i, a) {
   if (Cookies.get(a.idx) != undefined) return;
-  var blurb = '<div class="alert alert-dismissible alert-danger">' +
+  var blurb = '<div class="announcement alert alert-dismissible alert-danger">' +
       '<button type="button" class="close" data-dismiss="alert" ' +
         'onclick="javascript:Cookies.set(\'' + a.idx + '\', \'set\');">' +
         '<i class="fa fa-times"></i> <small>dismiss</small>' +
