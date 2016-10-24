@@ -194,7 +194,7 @@ body,html{
 }
 
 .push-down {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .owl-theme .owl-controls .owl-page span{
@@ -892,6 +892,11 @@ body,html{
     }
     .button_down{
         display:none
+    }
+}
+@media only screen and (max-height:468px){
+    .button_down{
+        display:none;
     }
 }
 @media screen and (max-width:600px){
