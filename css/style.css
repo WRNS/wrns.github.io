@@ -1541,6 +1541,14 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
         margin-left:-21px;
     }
 }
+
+.full { display: none; }
+.abbr { display: inline; }
+@media (min-width: 1000px) {
+    .full { display: inline; }
+    .abbr { display: none; }
+}
+
 .navbar-toggle{
     border:none;
     color:#34495e;
