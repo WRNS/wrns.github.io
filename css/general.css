@@ -170,6 +170,12 @@ body,html{
     color:#fff
 }
 
+@media (min-width: 767px) {
+  .tug-right {
+    float: right;
+  }
+}
+
 .no-padding{
     padding: 0px !important;
 }
