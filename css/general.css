@@ -873,7 +873,6 @@ body,html{
 @media only screen and (max-width:767px){
     .intro-header{
         height:100%;
-        padding-top:50px;
         padding-bottom:50px;
         color:#f8f8f8;
         background-image:none;
