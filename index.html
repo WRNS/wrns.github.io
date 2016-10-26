@@ -26,6 +26,9 @@
   <link href="css/style.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet">
 
+  <link href="css/fullcalendar.css" rel="stylesheet">
+  <link href="css/fullcalendar.print.css" rel="stylesheet" media="print">
+
   <link rel="stylesheet" href="css/magnific-popup.css">
   <script src="js/modernizr-2.6.2.min.js"></script>  
 </head>
@@ -78,6 +81,7 @@
           <li class="menuItem"><a href="#philosophy">Philosophy</a></li>
           <li class="menuItem"><a href="#teachers">Teachers</a></li>
           <li class="menuItem"><a href="#enroll">Enrollment</a></li>
+          <li class="menuItem"><a href="#parents">Parents</a></li>
           <li class="menuItem"><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -521,7 +525,7 @@ selection of dress up clothes that the children wear at WRNS!!</p>
     </div>
   </div>
 
-  <div class="content-section-c ">
+  <div id="parents" class="content-section-c">
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2 text-center white">
@@ -547,7 +551,66 @@ selection of dress up clothes that the children wear at WRNS!!</p>
             </div>
           </div>
         </div>
-      </div>>
+      </div>
+    </div>
+  </div>
+
+  <div class="content-section-b">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="calendar">
+            <!-- the calendar gets dynamically populated here by javascript -->
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Documents</h3>
+<h4>School Structure</h4>
+<p class="lead">
+See the <a class="underline"
+href="docs/wrns-committees.pdf" target="_blank">abbreviated description of
+committees</a> document.
+</p>
+
+<h4>By-Laws</h4>
+<p class="lead">
+For detailed information about parental responsibilities, financial
+commitments, and refund policies, see the <a class="underline"
+href="docs/wrns-by-laws.pdf" target="_blank">school by-laws</a>.
+</p>
+
+<h4>Parent's Handbook</h4>
+<p class="lead">
+An indispensable resource for parents whose children are currently enrolled,
+see the <a class="underline" href="docs/wrns-parent-handbook.pdf"
+target="_blank">Parent's Handbook</a>.
+</p>
+
+TODO - change the above doc links to bubbles with icons...
+
+        </div>
+        <div class="col-md-6">
+          <h3>Playdough recipe</h3>
+          <div class="sub-title lead3">
+            Please <strong>double</strong> the recipe when bringing playdough in for the class.
+          </div>
+          <ul>
+            <li>4 cups flour</li>
+            <li>1 cup salt</li>
+            <li>8 tablespoons cream of tartar</li>
+            <li>4 cups water</li>
+            <li>4 tablespoons oil</li>
+            <li>food coloring</li>
+          </ul>
+          <p class="lead"> Cook all ingredients together over medium heat.
+          Cool and knead on a floured surface.  Store in an airtight
+          container. </p>
+          <p class="text-center"><small>You can make this a fun activity to do with
+          your child.  Be creative and add glitter or scents!</small></p>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -665,5 +728,33 @@ new WOW().init();
 
   <script src="js/jquery.magnific-popup.js"></script>
   <script src="js/announcements.js"></script>
+
+  <script src="js/moment.min.js"></script>
+  <script src="js/fullcalendar.min.js"></script>
+  <script src="js/gcal.js"></script>
+  <script>
+  $(document).ready(function() {
+    $('#calendar').fullCalendar({
+      navLinks: true, // can click day/week names to navigate views
+      // http://fullcalendar.io/docs/google_calendar/
+      googleCalendarApiKey: 'AIzaSyAePS43FCcfuIafbhHa6viwDJ40jLLW-sE',
+      eventSources: [{
+        googleCalendarId: 'wintonroad.org_ilnbtkjvvfn3rumbb5eijj3tv8@group.calendar.google.com',
+        className: 'young-nursery-snack',
+      }, {
+        googleCalendarId: 'wintonroad.org_ft37u5b6np28du780ijku12jb0@group.calendar.google.com',
+        className: 'morning-art-project',
+      }, {
+        googleCalendarId: 'wintonroad.org_ik8kre6udmcq2k57bg1p67mo9s@group.calendar.google.com',
+        className: 'school-year',
+      }],
+      eventClick: function(event) {
+        // opens events in a popup window
+        window.open(event.url, 'gcalevent', 'width=700,height=600');
+        return false;
+      },
+    });
+  });
+  </script>
 </body>
 </html>

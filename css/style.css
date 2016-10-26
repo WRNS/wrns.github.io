@@ -195,6 +195,19 @@ a.underline, a.underline:hover, a.underline:focus {
     text-decoration: underline !important;
 }
 
+.morning-art-project {
+    background-color: #e74c3c !important;
+    border: none !important;
+}
+.young-nursery-snack {
+    background-color: #34495e !important;
+    border: none !important;
+}
+.school-year {
+    background-color: #1abc9c !important;
+    border: none !important;
+}
+
 .img-rounded{
     border-radius:6px;
 }
