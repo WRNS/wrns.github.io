@@ -5,9 +5,9 @@ var announcements = [
       url: 'forms/wrns-application.pdf',
     },
     {
-      idx: 'mabels-labels-2017',
-      message: "Click here to support our Mabel's Labels campaign.",
-      url: 'http://mabelslabels.com/c/?type=fundraiser&b=2601',
+      idx: 'under-construction',
+      message: "This site is under construction.  Email me at webmaster@wintonroad.org with suggestions, please!",
+      url: 'mailto:webmaster@wintonroad.org',
     },
 ];
 $.each(announcements, function(i, a) {
