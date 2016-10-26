@@ -1,0 +1,26 @@
+- [X] circle overlaps
+- [X] rows are too far apart
+- [X] coop picture is too high
+- [X] the (1, 2, 3) is too low in small view.
+- [X] remove the goofy FORMS explanation
+- [?] full/abbr doesn't work on mel's widescreen
+- [x] calendar, by javascript
+- [X] link to playdough recipe
+- [X] patti's name: Patty schwarz
+- [X] vivian's name: Tanacea
+- [X] mary whiteside
+- [X] playdough link
+- [X] table of programs
+- [X] add an announcement to contact me with problems.
+- [X] email the link to emily.
+- [ ] iphone model A1539, patti's phone, iphone 6
+- [ ] iphone model ME305LL/A, emily's phone,
+- [ ] put the kids logo at the bottom
+- [ ] AGPL
+- [ ] favicon
+- [ ] dropdown menu doesn't disappear on click when in mobile mode.
+- [ ] make docs links into bubbles
+- [ ] make a donation
+- [ ] stub out the pay tuition form
+- [ ] publish live
+- [ ] write document for next webmaster on how to maintain this thing.
