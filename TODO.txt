@@ -15,7 +15,7 @@
 - [X] email the link to emily.
 - [X] Fix molly's name.
 - [X] make docs links into bubbles
-- [ ] Make all the bubble links more easily clickable.
+- [X] Make all the bubble links more easily clickable.
 - [ ] iphone model A1539, patti's phone, iphone 6
 - [ ] iphone model ME305LL/A, emily's phone,
 - [ ] put the kids logo at the bottom
