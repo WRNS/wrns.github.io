@@ -14,7 +14,7 @@
 - [X] add an announcement to contact me with problems.
 - [X] email the link to emily.
 - [X] Fix molly's name.
-- [ ] make docs links into bubbles
+- [X] make docs links into bubbles
 - [ ] Make all the bubble links more easily clickable.
 - [ ] iphone model A1539, patti's phone, iphone 6
 - [ ] iphone model ME305LL/A, emily's phone,
