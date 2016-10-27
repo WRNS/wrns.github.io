@@ -786,13 +786,13 @@
 		</div>
 	</footer>
 
-	<script src="js/jquery-1.10.2.js"></script>
-	<script src="js/js.cookie.js"></script>
-	<script src="js/bootstrap.js"></script>
-	<script src="js/owl.carousel.js"></script>
-	<script src="js/script.js"></script>
+	<script src="js/lib/jquery-1.10.2.js"></script>
+	<script src="js/lib/js.cookie.js"></script>
+	<script src="js/lib/bootstrap.js"></script>
+	<script src="js/lib/owl.carousel.js"></script>
+	<script src="js/lib/script.js"></script>
 
-	<script src="js/stickUp.min.js"></script>
+	<script src="js/lib/stickUp.min.js"></script>
 	<script type="text/javascript">
 jQuery(function($) {
 	$(document).ready( function() {
@@ -801,46 +801,20 @@ jQuery(function($) {
 });
 	</script>
 
-	<script type="text/javascript" src="js/jquery.corner.js"></script>
-	<script src="js/wow.min.js"></script>
+	<script src="js/lib/jquery.corner.js" type="text/javascript"></script>
+	<script src="js/lib/wow.min.js"></script>
 	<script>
 new WOW().init();
 	</script>
-	<script src="js/classie.js"></script>
-	<script src="js/uiMorphingButton_inflow.js"></script>
+	<script src="js/lib/classie.js"></script>
+	<script src="js/lib/uiMorphingButton_inflow.js"></script>
 
-	<script src="js/jquery.magnific-popup.js"></script>
+	<script src="js/lib/jquery.magnific-popup.js"></script>
+
+	<script src="js/lib/moment.min.js"></script>
+	<script src="js/lib/fullcalendar.min.js"></script>
+	<script src="js/lib/gcal.js"></script>
 	<script src="js/announcements.js"></script>
-
-	<script src="js/moment.min.js"></script>
-	<script src="js/fullcalendar.min.js"></script>
-	<script src="js/gcal.js"></script>
-	<script>
-$(document).ready(function() {
-	$('#calendar').fullCalendar({
-		navLinks: true, // can click day/week names to navigate views
-		// http://fullcalendar.io/docs/google_calendar/
-		googleCalendarApiKey: 'AIzaSyAePS43FCcfuIafbhHa6viwDJ40jLLW-sE',
-		eventSources: [{
-			googleCalendarId: 'wintonroad.org_3u7355plrhfse3sfjb0cgsods8@group.calendar.google.com',
-			className: 'board-meetings',
-		}, {
-			googleCalendarId: 'wintonroad.org_ilnbtkjvvfn3rumbb5eijj3tv8@group.calendar.google.com',
-			className: 'young-nursery-snack',
-		}, {
-			googleCalendarId: 'wintonroad.org_ft37u5b6np28du780ijku12jb0@group.calendar.google.com',
-			className: 'morning-art-project',
-		}, {
-			googleCalendarId: 'wintonroad.org_ik8kre6udmcq2k57bg1p67mo9s@group.calendar.google.com',
-			className: 'school-year',
-		}],
-			eventClick: function(event) {
-				// opens events in a popup window
-				window.open(event.url, 'gcalevent', 'width=700,height=600');
-				return false;
-			},
-	});
-});
-	</script>
+	<script src="js/calendar.js"></script>
 </body>
 </html>
