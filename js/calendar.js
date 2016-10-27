@@ -7,9 +7,6 @@ $(document).ready(function() {
             googleCalendarId: 'wintonroad.org_3u7355plrhfse3sfjb0cgsods8@group.calendar.google.com',
             className: 'board-meetings',
         }, {
-            googleCalendarId: 'wintonroad.org_ilnbtkjvvfn3rumbb5eijj3tv8@group.calendar.google.com',
-            className: 'young-nursery-snack',
-        }, {
             googleCalendarId: 'wintonroad.org_ft37u5b6np28du780ijku12jb0@group.calendar.google.com',
             className: 'morning-art-project',
         }, {
