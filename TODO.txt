@@ -18,6 +18,11 @@
 - [X] Make all the bubble links more easily clickable.
 - [X] iphone model A1539, patti's phone, iphone 6
 - [X] iphone model ME305LL/A, emily's phone,
+- [ ] Leslie Ziegler's last name is misspelled.
+- [ ] Update to the 2016-2017 parent handbook.
+- [ ] put "learning through play" directly underneath the school name on the header.
+- [ ] get a replacement photo
+- [ ] Get the Value Proposition text worked in there.
 - [ ] put the kids logo at the bottom
 - [ ] AGPL
 - [ ] favicon
