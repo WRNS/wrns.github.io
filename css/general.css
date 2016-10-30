@@ -244,7 +244,7 @@ body,html{
     height:100%;
     padding-bottom:50px;
     color:#f8f8f8;
-    background:url(../img/wrns-banner.png) no-repeat center center;
+    background:url(../img/wrns-banner-3.png) no-repeat center center;
     background-size:cover;
     text-align:center
 }
@@ -301,7 +301,7 @@ body,html{
 .banner{
     padding:100px 0;
     color:#f8f8f8;
-    background:url(../img/wrns-banner.png) no-repeat center center;
+    background:url(../img/blocks.jpg) no-repeat center center;
     background-size:cover
 }
 .rotate{
