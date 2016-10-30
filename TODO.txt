@@ -24,7 +24,7 @@
 - [X] get a replacement photo
 - [ ] Get the Value Proposition text worked in there.
 - [ ] put the kids logo at the bottom
-- [ ] AGPL
+- [X] link to github.
 - [X] favicon
 - [X] get a variety of photos
 - [ ] dropdown menu doesn't disappear on click when in mobile mode.
