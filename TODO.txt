@@ -20,7 +20,6 @@
 - [X] iphone model ME305LL/A, emily's phone,
 - [X] give the announcements a nicer dismiss button and a nice circled-icon on the left.  leverage fa.
 - [X] Leslie Ziegler's last name is misspelled.
-- [ ] Update to the 2016-2017 parent handbook.
 - [X] put "learning through play" directly underneath the school name on the header.
 - [X] get a replacement photo
 - [ ] Get the Value Proposition text worked in there.
@@ -32,5 +31,7 @@
 - [ ] make a donation
 - [ ] stub out the pay tuition form
 - [X] figure out best way to publish live
+- [ ] Update to the 2016-2017 parent handbook.
+      Emily will send this.
 - [ ] publish live
 - [ ] write document for next webmaster on how to maintain this thing.
