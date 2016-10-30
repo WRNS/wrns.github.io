@@ -68,6 +68,11 @@ body,html{
     letter-spacing:6px;
 }
 
+@media only screen and (max-width:767px) {
+	.h2_home{
+		margin-top: 145px;
+	}
+}
 @media only screen and (min-width:768px) {
 	.h1_home{
 		margin-bottom: 145px;
