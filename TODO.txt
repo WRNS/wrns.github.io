@@ -22,16 +22,18 @@
 - [X] Leslie Ziegler's last name is misspelled.
 - [X] put "learning through play" directly underneath the school name on the header.
 - [X] get a replacement photo
-- [ ] Get the Value Proposition text worked in there.
-- [ ] put the kids logo at the bottom
 - [X] link to github.
 - [X] favicon
 - [X] get a variety of photos
-- [ ] dropdown menu doesn't disappear on click when in mobile mode.
-- [ ] make a donation
-- [ ] stub out the pay tuition form
 - [X] figure out best way to publish live
+- [ ] Get the Value Proposition text worked in there.
+- [ ] put the kids logo at the bottom
+- [ ] remove payment form for now
+- [ ] dropdown menu doesn't disappear on click when in mobile mode.
 - [ ] Update to the 2016-2017 parent handbook.
       Emily will send this.
 - [ ] publish live
 - [ ] write document for next webmaster on how to maintain this thing.
+
+- [!] make a donation
+- [!] stub out the pay tuition form
