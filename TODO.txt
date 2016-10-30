@@ -21,13 +21,13 @@
 - [ ] give the announcements a nicer dismiss button and a nice circled-icon on the left.  leverage fa.
 - [ ] Leslie Ziegler's last name is misspelled.
 - [ ] Update to the 2016-2017 parent handbook.
-- [ ] put "learning through play" directly underneath the school name on the header.
-- [ ] get a replacement photo
+- [X] put "learning through play" directly underneath the school name on the header.
+- [X] get a replacement photo
 - [ ] Get the Value Proposition text worked in there.
 - [ ] put the kids logo at the bottom
 - [ ] AGPL
 - [ ] favicon
-- [ ] get a variety of photos
+- [X] get a variety of photos
 - [ ] dropdown menu doesn't disappear on click when in mobile mode.
 - [ ] make a donation
 - [ ] stub out the pay tuition form
