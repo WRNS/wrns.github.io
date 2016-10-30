@@ -25,7 +25,7 @@
 - [ ] Get the Value Proposition text worked in there.
 - [ ] put the kids logo at the bottom
 - [ ] AGPL
-- [ ] favicon
+- [X] favicon
 - [X] get a variety of photos
 - [ ] dropdown menu doesn't disappear on click when in mobile mode.
 - [ ] make a donation
