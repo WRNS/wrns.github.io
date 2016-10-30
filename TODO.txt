@@ -31,5 +31,6 @@
 - [ ] dropdown menu doesn't disappear on click when in mobile mode.
 - [ ] make a donation
 - [ ] stub out the pay tuition form
+- [X] figure out best way to publish live
 - [ ] publish live
 - [ ] write document for next webmaster on how to maintain this thing.
