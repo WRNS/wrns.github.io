@@ -67,6 +67,19 @@ body,html{
     font-family:veneer;
     letter-spacing:6px;
 }
+
+@media only screen and (min-width:768px) {
+	.h1_home{
+		margin-bottom: 145px;
+		margin-top: -20px;
+	}
+}
+@media only screen and (min-width:1100px) {
+	.h1_home{
+		margin-bottom: 250px;
+	}
+}
+
 #owl-demo .item{
     margin:3px;
 }
