@@ -18,7 +18,7 @@
 - [X] Make all the bubble links more easily clickable.
 - [X] iphone model A1539, patti's phone, iphone 6
 - [X] iphone model ME305LL/A, emily's phone,
-- [ ] give the announcements a nicer dismiss button and a nice circled-icon on the left.  leverage fa.
+- [X] give the announcements a nicer dismiss button and a nice circled-icon on the left.  leverage fa.
 - [X] Leslie Ziegler's last name is misspelled.
 - [ ] Update to the 2016-2017 parent handbook.
 - [X] put "learning through play" directly underneath the school name on the header.
