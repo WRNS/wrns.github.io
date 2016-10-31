@@ -28,7 +28,7 @@
 - [X] figure out best way to publish live
 - [ ] Get the Value Proposition text worked in there.
 - [ ] put the kids logo at the bottom
-- [ ] remove payment form for now
+- [X] remove payment form for now
 - [ ] dropdown menu doesn't disappear on click when in mobile mode.
 - [ ] Update to the 2016-2017 parent handbook.
       Emily will send this.
