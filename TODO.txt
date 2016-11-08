@@ -28,7 +28,7 @@
 - [X] figure out best way to publish live
 - [ ] Get the Value Proposition text worked in there.
 - [ ] Add FB tracking pixel.
-- [ ] Add google analytics for operationsmanager and webmaster.
+- [X] Add google analytics for operationsmanager and webmaster.
 - [X] Anchor for the forms section.
 - [ ] Third party service for sending email from a "contact us" form?
 - [X] Remove no day preference from programs.
