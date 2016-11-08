@@ -29,7 +29,7 @@
 - [ ] Get the Value Proposition text worked in there.
 - [ ] Add FB tracking pixel.
 - [ ] Add google analytics for operationsmanager and webmaster.
-- [ ] Anchor for the forms section.
+- [X] Anchor for the forms section.
 - [ ] Third party service for sending email from a "contact us" form?
 - [ ] Remove no day preference from programs.
 - [ ] Under location, add h3 with mailing address paragraph
