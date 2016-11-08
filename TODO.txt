@@ -28,6 +28,14 @@
 - [X] figure out best way to publish live
 - [ ] Get the Value Proposition text worked in there.
 - [ ] put the kids logo at the bottom
+- [ ] Add FB tracking pixel.
+- [ ] Add google analytics for operationsmanager and webmaster.
+- [ ] Anchor for the forms section.
+- [ ] Third party service for sending email from a "contact us" form?
+- [ ] Remove no day preference from programs.
+- [ ] Under location, add h3 with mailing address paragraph
+- [ ] bump up spacing inbetween philo callouts.  they're tight.
+- [ ] take out the bottom-most footer.  most there is redundant.
 - [X] remove payment form for now
 - [ ] dropdown menu doesn't disappear on click when in mobile mode.
 - [X] Update to the 2016-2017 parent handbook.
