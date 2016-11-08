@@ -30,8 +30,7 @@
 - [ ] put the kids logo at the bottom
 - [X] remove payment form for now
 - [ ] dropdown menu doesn't disappear on click when in mobile mode.
-- [ ] Update to the 2016-2017 parent handbook.
-      Emily will send this.
+- [X] Update to the 2016-2017 parent handbook.
 - [ ] publish live
 - [ ] write document for next webmaster on how to maintain this thing.
 
