@@ -31,7 +31,7 @@
 - [ ] Add google analytics for operationsmanager and webmaster.
 - [X] Anchor for the forms section.
 - [ ] Third party service for sending email from a "contact us" form?
-- [ ] Remove no day preference from programs.
+- [X] Remove no day preference from programs.
 - [ ] Under location, add h3 with mailing address paragraph
 - [ ] bump up spacing inbetween philo callouts.  they're tight.
 - [ ] take out the bottom-most footer.  most there is redundant.
