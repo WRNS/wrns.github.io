@@ -30,7 +30,7 @@
 - [X] Add FB tracking pixel.
 - [X] Add google analytics for operationsmanager and webmaster.
 - [X] Anchor for the forms section.
-- [ ] Third party service for sending email from a "contact us" form?
+- [X] Third party service for sending email from a "contact us" form?
 - [X] Remove no day preference from programs.
 - [X] Under location, add h3 with mailing address paragraph
 - [ ] bump up spacing inbetween philo callouts.  they're tight.
