@@ -34,7 +34,7 @@
 - [X] Remove no day preference from programs.
 - [X] Under location, add h3 with mailing address paragraph
 - [ ] bump up spacing inbetween philo callouts.  they're tight.
-- [ ] take out the bottom-most footer.  most there is redundant.
+- [X] take out the bottom-most footer.  most there is redundant.
 - [X] remove payment form for now
 - [ ] dropdown menu doesn't disappear on click when in mobile mode.
 - [X] Update to the 2016-2017 parent handbook.
