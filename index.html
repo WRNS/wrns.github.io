@@ -783,6 +783,10 @@ new WOW().init();
 	<script src="js/lib/gcal.js"></script>
 	<script src="js/announcements.js"></script>
 	<script src="js/calendar.js"></script>
+	<script>
+	// Close the menu when an item is clicked in mobile mode.
+	$('.menuItem > a').click(function() {$('.navbar-toggle').click();});
+	</script>
 	<!--
 	 Google Analytics
 	-->

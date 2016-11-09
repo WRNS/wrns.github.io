@@ -36,7 +36,7 @@
 - [X] bump up spacing inbetween philo callouts.  they're tight.
 - [X] take out the bottom-most footer.  most there is redundant.
 - [X] remove payment form for now
-- [ ] dropdown menu doesn't disappear on click when in mobile mode.
+- [X] dropdown menu doesn't disappear on click when in mobile mode.
 - [X] Update to the 2016-2017 parent handbook.
 - [ ] publish live
 - [ ] write document for next webmaster on how to maintain this thing.
