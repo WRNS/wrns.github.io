@@ -33,7 +33,7 @@
 - [X] Third party service for sending email from a "contact us" form?
 - [X] Remove no day preference from programs.
 - [X] Under location, add h3 with mailing address paragraph
-- [ ] bump up spacing inbetween philo callouts.  they're tight.
+- [X] bump up spacing inbetween philo callouts.  they're tight.
 - [X] take out the bottom-most footer.  most there is redundant.
 - [X] remove payment form for now
 - [ ] dropdown menu doesn't disappear on click when in mobile mode.
