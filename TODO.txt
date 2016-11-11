@@ -39,6 +39,7 @@
 - [X] remove payment form for now
 - [X] dropdown menu doesn't disappear on click when in mobile mode.
 - [X] Update to the 2016-2017 parent handbook.
+- [ ] announcement cookies seem to be expiring...
 - [ ] publish live
 - [ ] write document for next webmaster on how to maintain this thing.
 
