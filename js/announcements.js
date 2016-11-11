@@ -16,7 +16,7 @@ $.each(announcements, function(i, a) {
   if (Cookies.get(a.idx) != undefined) return;
   var blurb = '<div class="announcement alert alert-dismissible alert-danger">' +
       '<button type="button" class="close btn btn-sm mybutton_standard" data-dismiss="alert" ' +
-        'onclick="javascript:Cookies.set(\'' + a.idx + '\', \'set\');">' +
+        'onclick="javascript:Cookies.set(\'' + a.idx + '\', \'set\', {expires: 365});">' +
         '<span class="fa-stack">' +
             '<i class="fa fa-circle-thin fa-stack-2x"></i> ' +
             '<i class="fa fa-times fa-stack-1x"></i> ' +
