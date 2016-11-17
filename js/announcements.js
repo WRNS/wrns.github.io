@@ -6,8 +6,8 @@ var announcements = [
       icon: 'paperclip',
     },
     {
-      idx: 'under-construction',
-      message: "This site is under construction.  Email me at webmaster@wintonroad.org with suggestions, please!",
+      idx: 'new-site',
+      message: "Welcome to our new website.  We hope you like it.  Email webmaster@wintonroad.org with any suggestions!",
       url: 'mailto:webmaster@wintonroad.org',
       icon: 'code-fork',
     },
