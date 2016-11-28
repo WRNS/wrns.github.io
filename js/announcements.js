@@ -1,5 +1,11 @@
 var announcements = [
     {
+      idx: 'newsletters/wrns-2016-12-16.pdf',
+      message: 'Click here for our December newsletter.',
+      url: 'newsletters/wrns-2016-12-16.pdf',
+      icon: 'newspaper-o',
+    },
+    {
       idx: 'open-enrollment-2016-2017',
       message: 'Enrollment is open for the 2016-2017 school year.  Apply today!',
       url: '#enroll',
