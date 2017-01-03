@@ -1,8 +1,8 @@
 var announcements = [
     {
-      idx: 'newsletters/wrns-2016-12-16.pdf',
-      message: 'Click here for our December newsletter.',
-      url: 'newsletters/wrns-2016-12-16.pdf',
+      idx: 'newsletters/wrns-2017-01.pdf',
+      message: 'Click here for our January newsletter.',
+      url: 'newsletters/wrns-2017-01.pdf',
       icon: 'newspaper-o',
     },
     {
