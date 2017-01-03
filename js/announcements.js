@@ -12,11 +12,11 @@ var announcements = [
       icon: 'paperclip',
     },
     {
-      idx: 'new-site',
-      message: "Welcome to our new website.  We hope you like it.  Email webmaster@wintonroad.org with any suggestions!",
-      url: 'mailto:webmaster@wintonroad.org',
-      icon: 'code-fork',
-    },
+      idx: 'open-house-2017-01-07',
+      message: 'Stop by for our next Open House, January 7th, 9:30-11:00 AM.',
+      url: 'https://www.facebook.com/events/1331452993551999/',
+      icon: 'calendar',
+    }
 ];
 $.each(announcements, function(i, a) {
   if (Cookies.get(a.idx) != undefined) return;
