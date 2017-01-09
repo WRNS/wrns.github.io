@@ -10,12 +10,6 @@ var announcements = [
       message: 'Enrollment is open for the 2017-2018 school year.  Apply today!',
       url: '#enroll',
       icon: 'paperclip',
-    },
-    {
-      idx: 'open-house-2017-01-07',
-      message: 'Stop by for our next Open House, January 7th, 9:30-11:00 AM.',
-      url: 'https://www.facebook.com/events/1331452993551999/',
-      icon: 'calendar',
     }
 ];
 $.each(announcements, function(i, a) {
