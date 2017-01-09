@@ -6,8 +6,8 @@ var announcements = [
       icon: 'newspaper-o',
     },
     {
-      idx: 'open-enrollment-2016-2017',
-      message: 'Enrollment is open for the 2016-2017 school year.  Apply today!',
+      idx: 'open-enrollment-2017-2018',
+      message: 'Enrollment is open for the 2017-2018 school year.  Apply today!',
       url: '#enroll',
       icon: 'paperclip',
     },
