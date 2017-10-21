@@ -195,6 +195,10 @@ a.underline, a.underline:hover, a.underline:focus {
     text-decoration: underline !important;
 }
 
+.afternoon-art-project {
+    background-color: #99d537 !important;
+    border: none !important;
+}
 .morning-art-project {
     background-color: #e74c3c !important;
     border: none !important;
