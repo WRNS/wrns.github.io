@@ -1,9 +1,11 @@
 var announcements = [
     {
-      idx: 'open-enrollment-2017-2018',
-      message: 'Enrollment is open for the 2017-2018 school year.  Apply today!',
-      url: '#enroll',
-      icon: 'paperclip',
+      idx: 'donate-2017',
+      message: 'Make a donation to WRNS today!',
+      url: 'javascript: $(\'#donate\').submit();',
+      // This is a "font awesome" icon.
+      // http://fontawesome.io/icons/
+      icon: 'paypal'
     }
 ];
 $.each(announcements, function(i, a) {
