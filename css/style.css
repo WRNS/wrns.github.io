@@ -208,6 +208,10 @@ a.underline, a.underline:hover, a.underline:focus {
     border: none !important;
 }
 
+#donate > input {
+    border-width: 0px;
+}
+
 .img-rounded{
     border-radius:6px;
 }
