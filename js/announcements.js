@@ -12,6 +12,12 @@ var announcements = [
       message: 'Enrollment is open for the 2018-2019 school year.  Apply today!',
       url: 'forms/wrns-application.pdf',
       icon: 'paperclip'
+    },
+    {
+      idx: 'open-house-january',
+      message: 'The Open House scheduled for Saturday, January 13th has been cancelled due to the upcoming winter storm',
+      url: '#',
+      icon: 'snowflake-o'
     }
 ];
 $.each(announcements, function(i, a) {
