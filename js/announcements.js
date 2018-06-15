@@ -4,13 +4,7 @@ var announcements = [
       message: 'Enrollment is open for the 2018-2019 school year.  Apply today!',
       url: 'forms/wrns-application.pdf',
       icon: 'paperclip'
-    },
-    {
-      idx: 'new-webmaster-2018-2019',
-      message: 'There\'s a new webmaster with a shorter beard!',
-      url: '#',
-      icon: 'beer'
-    }    
+    }  
 ];
 $.each(announcements, function(i, a) {
   if (Cookies.get(a.idx) != undefined) return;
