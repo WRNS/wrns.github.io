@@ -1,7 +1,7 @@
 var announcements = [
     {
-      idx: 'open-enrollment-2018-2019',
-      message: 'Enrollment is open for the 2018-2019 school year.  Apply today!',
+      idx: 'open-enrollment-2019-2020',
+      message: 'Enrollment is open for the 2019-2020 school year.  Apply today!',
       url: 'forms/wrns-application.pdf',
       icon: 'paperclip'
     }  
