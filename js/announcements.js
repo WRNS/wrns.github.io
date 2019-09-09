@@ -1,15 +1,15 @@
 var announcements = [
     {
-      hide: true,
-      idx: 'open-enrollment-2019-2020',
-      message: 'Enrollment is open for the 2019-2020 school year.  Apply today!',
+/*
+      idx: 'open-enrollment-2020-2021',
+      message: 'Enrollment is open for the 2020-2021 school year.  Apply today!',
       url: 'forms/wrns-application.pdf',
       icon: 'paperclip'
+*/
     }  
 ];
 $.each(announcements, function(i, a) {
   if (Cookies.get(a.idx) != undefined) return;
-  if (a.hide) return;
   var blurb = '<div class="announcement alert alert-dismissible alert-danger">' +
       '<button type="button" class="close btn btn-sm mybutton_standard" data-dismiss="alert" ' +
         'onclick="javascript:Cookies.set(\'' + a.idx + '\', \'set\', {expires: 365});">' +
