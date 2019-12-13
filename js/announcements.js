@@ -1,11 +1,9 @@
 var announcements = [
     {
-/*
       idx: 'open-enrollment-2020-2021',
       message: 'Enrollment is open for the 2020-2021 school year.  Apply today!',
       url: 'forms/wrns-application.pdf',
       icon: 'paperclip'
-*/
     }  
 ];
 $.each(announcements, function(i, a) {
