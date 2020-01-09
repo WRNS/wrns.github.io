@@ -1,9 +1,9 @@
 var announcements = [
     {
       idx: 'open-house-20200109',
-      message: 'Due to conflicting schedules, the open house originally planned for January 11th, 2020 will be postponed for another weekend.',
+      message: 'The OPEN HOUSE scheduled for this Saturday (1/11/2020) has been postponed to a later date.',
       url: 'https://www.facebook.com/WintonRoadNurserySchool/posts/2663226493723529',
-      icon: 'paperclip'
+      icon: 'exclamation-circle'
     },  
     {
       idx: 'open-enrollment-2020-2021',
