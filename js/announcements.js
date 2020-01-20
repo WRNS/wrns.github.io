@@ -3,7 +3,7 @@ var announcements = [
       idx: 'open-house-20200120',
       message: 'Winton Road Open House on Saturday (1/25/2020) from 9:30 AM – 11 AM. See you there!',
       url: 'https://www.facebook.com/events/505083236780644/',
-      icon: 'door-open',
+      icon: 'home',
       expires: new Date(2020, 01, 27)
     },  
     {
