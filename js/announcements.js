@@ -30,7 +30,7 @@ $.each(announcements, function(i, a) {
     blurb = blurb +
         '<span class="fa-stack fa-lg">' +
             '<i class="fa fa-circle-thin fa-stack-2x"></i> ' +
-            '<i class="fas fa-' + a.icon + ' fa-stack-1x"></i> ' +
+            '<i class="fa fa-' + a.icon + ' fa-stack-1x"></i> ' +
         '</span>';
   }
   blurb = blurb + a.message + '</a></p></div>';
