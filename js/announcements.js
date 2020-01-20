@@ -15,7 +15,7 @@ var announcements = [
 ];
 $.each(announcements, function(i, a) {
   if (Cookies.get(a.idx) != undefined) return;
-  if (a.expires > Date.now()) return;
+  if (a.expires < Date.now()) return;
   var blurb = '<div class="announcement alert alert-dismissible alert-danger">' +
       '<button type="button" class="close btn btn-sm mybutton_standard" data-dismiss="alert" ' +
         'onclick="javascript:Cookies.set(\'' + a.idx + '\', \'set\', {expires: 365});">' +
