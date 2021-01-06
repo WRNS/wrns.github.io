@@ -7,8 +7,8 @@ var announcements = [
       expires: new Date(2020, 01, 27)
     },  
     {
-      idx: 'open-enrollment-2020-2021',
-      message: 'Enrollment is open for the 2020-2021 school year.  Apply today!',
+      idx: 'open-enrollment-2021-2022',
+      message: 'Enrollment is open for the 2021-2022 school year.  Apply today!',
       url: 'forms/wrns-application.pdf',
       icon: 'paperclip'
     }  
