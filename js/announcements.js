@@ -10,8 +10,8 @@ var announcements = [
       idx: 'open-enrollment-2022-2023',
       message: 'Enrollment is open for the 2022-2023 school year.  Apply today!',
       url: 'forms/wrns-application.pdf',
-      icon: 'paperclip'
-    }  
+      icon: 'paperclip',
+      expires: new Date(2022, 08, 31)    }  
 ];
 $.each(announcements, function(i, a) {
   if (Cookies.get(a.idx) != undefined) return;
