@@ -1,7 +1,7 @@
 var announcements = [
   {
     idx: 'ongoing-enrollment-20221017',
-    message: 'Just a few spots remaining at our play-based cooperative preschool - please share & come check out our program! Email info@wintonroad.org to get set up with a tour.',
+    message: 'Just a few spots remain. Come check out our program! Email info@wintonroad.org to set up a tour.',
     url: 'https://www.facebook.com/WintonRoadNurserySchool/posts/pfbid0xTbhoUUavg38xmidapMEVh9ss6YkYaFm4jRToerrAwCjwAkRh3f6Z5gVCpbcUbGql',
     icon: 'home',
     expires: new Date(2022, 11, 18)
