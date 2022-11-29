@@ -1,12 +1,5 @@
 var announcements = [
   {
-    idx: 'ongoing-enrollment-20221017',
-    message: 'Just a few spots remain. Come check out our program! Email info@wintonroad.org to set up a tour.',
-    url: 'https://www.facebook.com/WintonRoadNurserySchool/posts/pfbid0xTbhoUUavg38xmidapMEVh9ss6YkYaFm4jRToerrAwCjwAkRh3f6Z5gVCpbcUbGql',
-    icon: 'home',
-    expires: new Date(2022, 11, 18)
-  },  
-  {
     idx: 'open-house-20200120',
     message: 'Winton Road Open House on Saturday (1/25/2020) from 9:30 AM – 11 AM. See you there!',
     url: 'https://www.facebook.com/events/505083236780644/',
@@ -18,7 +11,8 @@ var announcements = [
       message: 'Enrollment is open for the 2022-2023 school year.  Apply today!',
       url: 'forms/wrns-application.pdf',
       icon: 'paperclip',
-      expires: new Date(2022, 08, 31)    }  
+      expires: new Date(2022, 08, 31)
+  }  
 ];
 $.each(announcements, function(i, a) {
   if (Cookies.get(a.idx) != undefined) return;
