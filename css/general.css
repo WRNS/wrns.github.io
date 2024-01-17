@@ -215,7 +215,7 @@ body,html{
     background:#1abc9c!important
 }
 .navbar{
-    position:relative;
+    position:sticky;
     min-height:60px;
     margin-bottom:0;
     width:100%;
@@ -253,6 +253,17 @@ body,html{
 .lead{
     font-size:20px;
     font-weight:400
+}
+#announcement-area{
+  text-align:center;
+  bottom:0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+#announcement-area p {
+  margin: 0;
 }
 .intro-header{
     height:100%;

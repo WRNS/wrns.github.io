@@ -14,24 +14,43 @@ var announcements = [
       expires: new Date(2022, 08, 31)
   },
   {
-    idx: 'open-enrollment-2024',
+    idx: '2024-teacher-hiring',
+    message: 'Now hiring for an assistant teacher! Click here for a job description and details on how to apply.',
+    url: 'https://docs.google.com/document/d/1f-1ELAiKT4wn36mK0X6_EcJkuUjfsn7_HlLbqBKCYCg/edit?usp=sharing',
+    icon: 'handshake-o',
+    type: 'news'
+  },
+  {
+    idx: '2024-enrollment-preview',
+    type: 'info',
     message: 'Enrollment opens soon for the 2024–2025 school year!',
     url: '#enroll',
-    icon: 'file',
-    expires: new Date("February 8, 2024 01:00:00")
-  }    
+    icon: 'file-text',
+    expires: new Date("February 8, 2024 01:00:00"),
+    type: 'info'
+  }
 ];
 $.each(announcements, function(i, a) {
   if (Cookies.get(a.idx) != undefined) return;
   if (a.expires < Date.now()) return;
-  var blurb = '<div class="announcement info alert-dismissible alert-info">' +
-      '<button type="button" class="close btn btn-sm mybutton_standard" data-dismiss="alert" ' +
-        'onclick="javascript:Cookies.set(\'' + a.idx + '\', \'set\', {expires: 365});">' +
-        '<span class="fa-stack">' +
-            '<i class="fa fa-circle-thin fa-stack-2x"></i> ' +
-            '<i class="fa fa-times fa-stack-1x"></i> ' +
-        '</span>' +
-      '</button>';
+  var blurb = ' ';
+  if (a.type == undefined) {
+    blurb = blurb + '<div class="announcement info alert-dismissible">';
+  }
+  if (a.type == 'info') {
+    blurb = blurb + '<div class="announcement warning alert-dismissible alert-info">';
+  }
+  if (a.type == 'alert') {
+    blurb = blurb + '<div class="announcement warning alert-dismissible alert-danger">';
+  }
+  blurb = blurb +
+        '<button type="button" class="close btn btn-sm mybutton_standard" data-dismiss="alert" ' +
+          'onclick="javascript:Cookies.set(\'' + a.idx + '\', \'set\', {expires: 365});">' +
+          '<span class="fa-stack">' +
+              '<i class="fa fa-circle-thin fa-stack-2x"></i> ' +
+              '<i class="fa fa-times fa-stack-1x"></i> ' +
+          '</span>' +
+        '</button>';
   blurb = blurb + '<p>';
   if (a.url != undefined) {
     blurb = blurb + '<a href="' + a.url + '" class="alert-link">';
@@ -48,5 +67,5 @@ $.each(announcements, function(i, a) {
     blurb = blurb + '</a>';
   }
   blurb = blurb + '</p></div>';
-  $('.intro-header').prepend(blurb);
+  $('#announcement-area').prepend(blurb);
 });
