@@ -19,7 +19,7 @@ var announcements = [
     url: 'https://docs.google.com/document/d/1f-1ELAiKT4wn36mK0X6_EcJkuUjfsn7_HlLbqBKCYCg/edit?usp=sharing',
     icon: 'handshake-o',
     type: 'news',
-    expires: new Date(2024, 02, 11)
+    expires: new Date("February 11, 2024 12:00:00")
   },
   {
     idx: '2024-enrollment-preview',
@@ -28,6 +28,15 @@ var announcements = [
     url: '#enroll',
     icon: 'file-text',
     expires: new Date("February 8, 2024 01:00:00"),
+    type: 'info'
+  },
+  {
+    idx: '2024-enrollment',
+    type: 'info',
+    message: 'Enrollment is open for the 2024–2025 school year!',
+    url: '#enroll',
+    icon: 'file-text',
+    expires: new Date("March 20, 2024 01:00:00"),
     type: 'info'
   }
 ];
