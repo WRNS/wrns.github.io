@@ -18,7 +18,8 @@ var announcements = [
     message: 'Now hiring for an assistant teacher! Click here for a job description and details on how to apply.',
     url: 'https://docs.google.com/document/d/1f-1ELAiKT4wn36mK0X6_EcJkuUjfsn7_HlLbqBKCYCg/edit?usp=sharing',
     icon: 'handshake-o',
-    type: 'news'
+    type: 'news',
+    expires: new Date(2024, 02, 11)
   },
   {
     idx: '2024-enrollment-preview',
