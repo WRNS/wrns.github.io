@@ -38,6 +38,14 @@ var announcements = [
     icon: 'file-text',
     expires: new Date("March 20, 2024 01:00:00"),
     type: 'info'
+  },
+  {
+    idx: '2024-05-yn-job-posting',
+    message: 'Winton Road is looking for a lead teacher in our Young Nursery! Click here for details.',
+    url: 'https://docs.google.com/document/d/1-rsmNEOLmxDk6SCSutyLDIGf2GfhRausJwXJAFp1VBA/view?usp=sharing',
+    icon: 'handshake-o',
+    type: 'news',
+    expires: new Date("June 1, 2024 0:00:00"),
   }
 ];
 $.each(announcements, function(i, a) {
