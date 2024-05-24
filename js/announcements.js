@@ -45,7 +45,15 @@ var announcements = [
     url: 'https://docs.google.com/document/d/1-rsmNEOLmxDk6SCSutyLDIGf2GfhRausJwXJAFp1VBA/view?usp=sharing',
     icon: 'handshake-o',
     type: 'news',
-    expires: new Date("June 1, 2024 0:00:00"),
+    expires: new Date("June 1, 2024 0:00:00")
+  },
+  {
+    idx: '2024-05-om-job-posting',
+    message: 'Winton Road is looking for a new Operations Manager – click here for details.',
+    url: 'https://docs.google.com/document/d/16bWWnGb_KztmLi-yvjydzhZIyy8g8GD4_8vPFI3L2Kg/view?usp=sharing',
+    icon: 'handshake-o',
+    type: 'news',
+    expires: new Date("June 24, 2024 0:00:00")
   }
 ];
 $.each(announcements, function(i, a) {
