@@ -62,13 +62,16 @@ $.each(announcements, function(i, a) {
   var blurb = ' ';
   if (a.type == undefined) {
     blurb = blurb + '<div class="announcement info alert-dismissible">';
-  }
+  };
+  if (a.type == 'news') {
+    blurb = blurb + '<div class="announcement warning alert-dismissible alert-news">';
+  };
   if (a.type == 'info') {
     blurb = blurb + '<div class="announcement warning alert-dismissible alert-info">';
-  }
+  };
   if (a.type == 'alert') {
     blurb = blurb + '<div class="announcement warning alert-dismissible alert-danger">';
-  }
+  };
   blurb = blurb +
         '<button type="button" class="close btn btn-sm mybutton_standard" data-dismiss="alert" ' +
           'onclick="javascript:Cookies.set(\'' + a.idx + '\', \'set\', {expires: 365});">' +

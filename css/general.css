@@ -11,6 +11,7 @@ body,html{
     background:#1abc9c;
     color:#fff;
 }
+.alert-news{background-color:#ffffff;}
 .abcen{
     position:absolute;
     bottom:8%;
@@ -18,6 +19,9 @@ body,html{
 .abcen1{
     position:absolute;
     top:20%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .content-section-c{
     border-top:1px solid #32465a;
@@ -68,26 +72,32 @@ body,html{
     font-family:veneer;
     letter-spacing:6px;
 }
-
-@media only screen and (max-width:767px) {
-	.h2_home{
-		margin-top: 145px;
-	}
-  div.teachers .img-responsive, .img-centered, .img-circle {
-      max-height: 500px !important;
-  }
-
-}
 @media only screen and (min-width:768px) {
+  .abcen1 {
+    height: 80%;
+  }
 	.h1_home{
-		margin-bottom: 145px;
-		margin-top: -20px;
+		flex-basis:75%;
 	}
+  .h2_home{
+    flex-basis:0;
+  }
+  .h3_home{
+    flex-basis:0;
+  }
 }
 @media only screen and (min-width:1100px) {
 	.h1_home{
-		margin-bottom: 250px;
+		order: 1;
 	}
+  .h2_home{
+    order: 2;
+    
+  }
+  .h3_home{
+    order: 3;
+  }
+
 }
 
 #owl-demo .item{
@@ -261,6 +271,7 @@ body,html{
 #announcement-area{
   text-align:center;
   bottom:0;
+  opacity: 1;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -898,16 +909,35 @@ body,html{
     h3,.h3{
         font-size:20px
     }
+    .abcen1{
+      height: 80%;
+    }
+    .h1_home{
+      flex-grow: 4;
+    }
+    .h2_home {
+      flex-grow:1;
+    }
+    .h3_home {
+      flex-grow: 1;
+    }
+
 }
 @media only screen and (max-width:767px){
     .intro-header{
         height:100%;
-        padding-bottom:50px;
-        color:#f8f8f8;
-        background-image:none;
         background-size:cover;
         text-align:center;
-        background-color:#34495e
+        vertical-align: top;
+    }
+    .abcen1{
+      height: 100%;
+    }
+    .h2_home {
+      flex-grow:2;
+    }
+    .h3_home {
+      flex-grow: 1;
     }
     h1,.h1{
         font-size:50px
@@ -915,6 +945,8 @@ body,html{
     h3,.h3{
         font-size:20px
     }
+    div.teachers .img-responsive, .img-centered, .img-circle {
+        max-height: 500px !important;
     #gallery1{
         display:none
     }
