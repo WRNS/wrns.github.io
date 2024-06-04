@@ -53,7 +53,7 @@ var announcements = [
     url: 'https://docs.google.com/document/d/16bWWnGb_KztmLi-yvjydzhZIyy8g8GD4_8vPFI3L2Kg/view?usp=sharing',
     icon: 'handshake-o',
     type: 'news',
-    expires: new Date("June 24, 2024 0:00:00")
+    expires: new Date("June 4, 2024 0:00:00")
   }
 ];
 $.each(announcements, function(i, a) {
