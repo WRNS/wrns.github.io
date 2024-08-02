@@ -45,7 +45,7 @@ var announcements = [
     url: "https://docs.google.com/document/d/1-rsmNEOLmxDk6SCSutyLDIGf2GfhRausJwXJAFp1VBA/view?usp=sharing",
     icon: "handshake-o",
     type: "news",
-    expires: new Date("August 1, 2024 0:00:00"),
+    expires: new Date("July 30, 2024 0:00:00"),
   },
   {
     idx: "2024-05-om-job-posting",
