@@ -1,0 +1,297 @@
+@import "./mixins";
+
+:root {
+  --light: #{$light};
+  --primary: #{$primary};
+  --white: #{$white};
+}
+
+.remove-me-later {
+  // REMOVE THIS BEFORE GOING TO PROD
+
+  color: $error;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  width: 12rem;
+  margin: 0 auto 2rem;
+  padding: 1rem;
+  border: 1px solid $error;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-size: 16px;
+}
+
+*:focus-visible {
+  outline: 2px solid $primary;
+  outline-offset: 4px;
+  transition: 0;
+}
+
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+
+body {
+  color: $black;
+  background: $light;
+
+  @include Rubik;
+}
+
+a {
+  color: $primary-variant;
+  text-decoration: underline;
+
+  &.alt-link {
+    color: $white;
+  }
+}
+
+p {
+  margin: 1rem 0;
+
+  &.condensed {
+    margin: 0.2rem 0;
+  }
+}
+
+*.white {
+  color: $white;
+}
+
+*.primary {
+  color: $primary;
+}
+
+h1 {
+  @include Veneer;
+  font-size: 48px;
+  font-weight: 200;
+  color: $primary;
+}
+
+h2 {
+  @include Veneer;
+  font-size: 40px;
+  font-weight: 200 !important;
+  line-height: 1.33em;
+
+  color: $primary;
+}
+
+h3 {
+  @include Rubik;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.33em;
+
+  color: $primary;
+
+  margin: 1rem 0 0 0;
+}
+
+h4 {
+  @include Rubik;
+  font-size: 18px;
+  margin: 1rem 0 0 0;
+  font-weight: 700;
+  color: $primary;
+}
+
+.caps {
+  text-transform: uppercase;
+  // font-weight: 500;
+}
+
+.text-content {
+  margin: 2rem auto;
+  width: 80vw;
+  max-width: 1024px;
+  line-height: $standard-line-height;
+
+  > p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+ul,
+ol {
+  margin-left: 1.66rem;
+
+  li {
+    margin: 0.66em 0;
+    line-height: $standard-line-height;
+  }
+}
+
+.section {
+  &__layout {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 5rem 6vw;
+    background-color: $light;
+
+    &.background-primary {
+      background-color: $primary;
+      color: $white;
+
+      .section__heading {
+        color: $white;
+      }
+    }
+  }
+
+  &__heading {
+    margin: 0 0 1em;
+    text-align: center;
+  }
+
+  &__subheading {
+    margin: -2rem 0 2rem;
+    text-align: center;
+  }
+
+  &__divider {
+    height: 2px;
+    background: $primary;
+    border: 0;
+    margin: 2rem 0;
+  }
+}
+
+.btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  transition: 0.3s ease;
+  will-change: transform;
+
+  color: $white;
+  text-decoration: none;
+
+  border: 2px solid $white;
+  background-color: $primary;
+
+  margin-bottom: 1.33rem;
+  border-radius: 0.5rem;
+
+  &:focus,
+  &:hover {
+    background-color: rgba($primary-variant, 1);
+    color: $white;
+  }
+
+  &--icon {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 400px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 0.66em;
+
+    border: 2px solid $primary;
+
+    .svg-icon {
+      width: 48px;
+      height: 48px;
+
+      &--small {
+        width: 32px;
+        height: 32px;
+      }
+
+      &--medium {
+        width: 48px;
+        height: 48px;
+      }
+
+      &--large {
+        width: 72px;
+        height: 72px;
+      }
+    }
+  }
+
+  &--inverse {
+    background-color: $white;
+    color: $primary;
+
+    &:hover,
+    &:focus {
+      color: $primary;
+      background-color: rgba($gray-light, 1);
+    }
+  }
+
+  &--underline {
+    overflow: hidden;
+    padding-bottom: 0.5625rem;
+    background-color: transparent;
+    border: 0;
+
+    &::before,
+    &::after {
+      content: "";
+      background-color: $primary;
+      display: block;
+      height: 2px;
+      left: -60%;
+      position: absolute;
+      top: calc(100% - 0.0625rem);
+      transition: 0.8s ease;
+      width: 160%;
+    }
+
+    &::before {
+      width: 160%;
+    }
+
+    &::after {
+      left: unset;
+      right: -60%;
+      width: 0;
+    }
+
+    &:hover,
+    &:focus {
+      background-color: transparent;
+
+      &::before {
+        width: 0%;
+      }
+
+      &::after {
+        width: 160%;
+      }
+    }
+  }
+
+  &__text-content {
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.grecaptcha-badge {
+  visibility: hidden !important;
+}

@@ -1,0 +1,43 @@
+@import "@styles/mixins";
+
+.calendar {
+  @include Rubik;
+
+  &__date-container {
+    display: block;
+    color: $primary;
+    font-weight: 700;
+
+    padding: 0 0 1.5rem;
+    margin: 0 0 1.5rem;
+
+    border-bottom: 1px solid rgba($gray, 0.25);
+  }
+
+  &__event-container {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: $tablet) {
+      flex-direction: row;
+    }
+  }
+
+  &__event-title {
+    color: $black;
+    margin: 0;
+
+    @media (min-width: $tablet) {
+      width: 33vw;
+      margin-right: 5vw;
+    }
+  }
+
+  &__event-description {
+    width: stretch;
+
+    @media (min-width: $tablet) {
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+@import "@styles/mixins";
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0;
+  padding: 2rem 6vw;
+
+  &__text {
+    line-height: $standard-line-height;
+    font-size: 1.33rem;
+    font-weight: 500;
+    padding: 0 1rem;
+    margin-bottom: 4rem;
+  }
+
+  @media (min-width: $desktop) {
+    padding: 3rem 26vw;
+    font-size: 1rem;
+  }
+}
+
+.coop {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 4rem;
+
+    @media (min-width: $desktop) {
+      flex-direction: row;
+    }
+  }
+
+  &__text {
+    width: 100%;
+    margin-left: 2rem;
+
+    @media (max-width: $desktop) {
+      margin: 0;
+    }
+  }
+
+  &__image-wrapper {
+    flex: 0 0 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.document-links {
+  max-width: 80vw;
+}

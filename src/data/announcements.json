@@ -1,0 +1,20 @@
+[
+  {
+    "type": "event",
+    "message": "<strong class='caps'>Mandatory Social Work Day</strong> - Saturday September 7th, 9am to 12pm",
+    "startDate": "2024-08-01",
+    "endDate": "2024-09-08"
+  },
+  {
+    "type": "hiring",
+    "message": "Winton Road is seeking a lead teacher for our Young Nursery. Learn more about this exciting opportunity in the <a class=\"link\" href='https://docs.google.com/document/d/1-rsmNEOLmxDk6SCSutyLDIGf2GfhRausJwXJAFp1VBA/view?usp=sharing'>job details</a>.",
+    "startDate": "2024-07-15",
+    "endDate": "2024-08-01"
+  },
+  {
+    "type": "event",
+    "message": "Upcoming school fair on August 20th!",
+    "startDate": "2024-06-01T00:00:00Z",
+    "endDate": "2024-06-21T00:00:00Z"
+  }
+]

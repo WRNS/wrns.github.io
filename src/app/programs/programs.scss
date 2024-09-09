@@ -1,0 +1,135 @@
+@import "@styles/mixins";
+
+#programs {
+  .table-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+
+    @media screen and (min-width: $tablet) {
+      flex-direction: row;
+      align-items: normal;
+    }
+  }
+
+  .table-section {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    max-width: 80vw;
+    width: 550px;
+
+    margin: 0 1rem;
+  }
+
+  .table-title {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+    @media screen and (min-width: $tablet) {
+      flex-direction: row;
+      align-self: flex-start;
+
+      & > span:first-child {
+        margin-right: 0.25em;
+      }
+    }
+  }
+
+  .notes {
+    list-style-type: none;
+    margin-left: 0;
+
+    li {
+      margin-bottom: 1.5rem;
+      line-height: $standard-line-height;
+    }
+  }
+}
+
+.programs-table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  thead {
+    font-weight: 700;
+    background-color: transparent;
+
+    th {
+      border-bottom: 2px solid $primary;
+    }
+  }
+
+  tbody {
+    tr {
+      &:nth-child(2n) {
+        background-color: rgba($primary, 0.06);
+      }
+    }
+
+    td {
+      padding: 1rem 0.66rem;
+    }
+  }
+}
+
+.enrollment {
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: $tablet) {
+    padding: 3rem 26vw;
+    margin: 0 auto;
+  }
+
+  .number-heading {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 3rem;
+
+    &__box {
+      @include Monospace;
+
+      width: 64px;
+      height: 64px;
+      border: 3px solid $primary;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      color: $primary;
+      font-size: 3rem;
+      font-weight: 700;
+    }
+
+    &__header {
+      width: 66%;
+      margin: 0;
+      padding: 1rem 0;
+
+      font-size: 28px;
+    }
+  }
+
+  &__text {
+    margin: 1.5rem auto 5rem;
+    max-width: 90vw;
+  }
+
+  &__scholarships {
+    margin-top: 2rem;
+  }
+}

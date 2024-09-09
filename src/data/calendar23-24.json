@@ -1,0 +1,415 @@
+[
+  {
+    "fromDate": "12/21/2024",
+    "toDate": "01/01/2025",
+    "time": null,
+    "title": "No School - Winter Recess",
+    "description": "Winton Road will be closed in observance of Indigenous People's Day."
+  },
+  {
+    "fromDate": "09/13/2024",
+    "toDate": null,
+    "time": "7pm",
+    "title": "Board Meeting",
+    "description": "The Winton Road Board of Directors will have their first meeting of the 2024-2025 school year. All board members are requested to attend. Non-board members with children current enrolled at Winton Road are welcome to attend."
+  },
+  {
+    "fromDate": "10/9/2024",
+    "toDate": null,
+    "time": null,
+    "title": "No School - Indigenous People's Day",
+    "description": "Winton Road will be closed in observance of Indigenous People's Day."
+  },
+  {
+    "fromDate": "09/01/2024",
+    "toDate": null,
+    "time": null,
+    "title": "Tuition Payment Due",
+    "description": "Tuition payment due for most families."
+  },
+  {
+    "fromDate": "09/07/2024",
+    "toDate": "09/08/2024",
+    "time": null,
+    "title": "Teacher Work Day",
+    "description": "Staff only work days."
+  },
+  {
+    "fromDate": "09/09/2024",
+    "toDate": null,
+    "time": "9am",
+    "title": "Mandatory Social Work Day",
+    "description": "Mandatory social work day for adults only."
+  },
+  {
+    "fromDate": "09/11/2024",
+    "toDate": null,
+    "time": "9am - 9:30am or 9:30am - 10am",
+    "title": "Parent & Child Orientation",
+    "description": "Big Nursery: 3 Day / 5 Day Parent & Child Orientation."
+  },
+  {
+    "fromDate": "09/12/2024",
+    "toDate": null,
+    "time": "9am - 9:30am or 9:30am - 10am",
+    "title": "Parent & Child Orientation",
+    "description": "Big Nursery: 2 Day / 5 Day Parent & Child Orientation."
+  },
+  {
+    "fromDate": "09/13/2024",
+    "toDate": null,
+    "time": "9am - 10:30am",
+    "title": "Short Day & Parent Meeting",
+    "description": "Big Nursery: 3 Day / 5 Day Short Day & Parent Meeting."
+  },
+  {
+    "fromDate": "09/14/2024",
+    "toDate": null,
+    "time": "9am - 10:30am",
+    "title": "Short Day & Parent Meeting",
+    "description": "Big Nursery: 2 Day / 5 Day Short Day & Parent Meeting."
+  },
+  {
+    "fromDate": "09/15/2024",
+    "toDate": null,
+    "time": "9am - 12pm",
+    "title": "First Full Day",
+    "description": "Big Nursery: 3 Day / 5 Day First Full Day."
+  },
+  {
+    "fromDate": "09/18/2024",
+    "toDate": null,
+    "time": null,
+    "title": "Parent & Child Orientation",
+    "description": "Young Nursery: M/Tu Parent & Child Orientation."
+  },
+  {
+    "fromDate": "09/19/2024",
+    "toDate": null,
+    "time": "9am - 10:30am",
+    "title": "Short Day & Parent Meeting",
+    "description": "Young Nursery: M/Tu Short Day & Parent Meeting."
+  },
+  {
+    "fromDate": "09/19/2024",
+    "toDate": null,
+    "time": "9am - 12pm",
+    "title": "First Full Day",
+    "description": "Big Nursery: 2 Day First Full Day."
+  },
+  {
+    "fromDate": "09/20/2024",
+    "toDate": null,
+    "time": null,
+    "title": "Parent & Child Orientation",
+    "description": "Young Nursery: W/Th Parent & Child Orientation."
+  },
+  {
+    "fromDate": "09/21/2024",
+    "toDate": null,
+    "time": "9am - 10:30am",
+    "title": "Short Day & Parent Meeting",
+    "description": "Young Nursery: W/Th Short Day & Parent Meeting."
+  },
+  {
+    "fromDate": "09/25/2024",
+    "toDate": null,
+    "time": "9am - 11am",
+    "title": "First Short Hours Day",
+    "description": "Young Nursery: M/Tu First Short Hours Day."
+  },
+  {
+    "fromDate": "09/27/2024",
+    "toDate": null,
+    "time": "9am - 11am",
+    "title": "First Short Hours Day",
+    "description": "Young Nursery: W/Th First Short Hours Day."
+  },
+  {
+    "fromDate": "10/10/2024",
+    "toDate": null,
+    "time": "9am - 11:30am",
+    "title": "First Full Day",
+    "description": "Young Nursery: M/Tu First Full Day."
+  },
+  {
+    "fromDate": "10/11/2024",
+    "toDate": null,
+    "time": "9am - 11:30am",
+    "title": "First Full Day",
+    "description": "Young Nursery: W/Th First Full Day."
+  },
+  {
+    "fromDate": "10/11/2024",
+    "toDate": null,
+    "time": "7pm",
+    "title": "Officers Meeting",
+    "description": "Officers meeting."
+  },
+  {
+    "fromDate": "10/19/2024",
+    "toDate": null,
+    "time": "6:30pm - 7:30pm",
+    "title": "Open House for Families",
+    "description": "2 Day, 3 Day, & 5 Day Open House for Families."
+  },
+  {
+    "fromDate": "11/01/2024",
+    "toDate": null,
+    "time": null,
+    "title": "Tuition Payment Due",
+    "description": "Tuition payment due."
+  },
+  {
+    "fromDate": "11/08/2024",
+    "toDate": null,
+    "time": "7pm",
+    "title": "Board Meeting - Budget Vote",
+    "description": "'24-'25 Budget Vote at Board Meeting."
+  },
+  {
+    "fromDate": "11/10/2024",
+    "toDate": null,
+    "time": null,
+    "title": "No School - Veteran's Day",
+    "description": "School closed in observance of Veteran's Day."
+  },
+  {
+    "fromDate": "11/22/2024",
+    "toDate": "11/24/2024",
+    "time": null,
+    "title": "No School - Thanksgiving Recess",
+    "description": "School closed for Thanksgiving Recess."
+  },
+  {
+    "fromDate": "11/27/2024",
+    "toDate": null,
+    "time": null,
+    "title": "No School - Teacher Work Day",
+    "description": "Teacher work day, no school for students."
+  },
+  {
+    "fromDate": "11/28/2024",
+    "toDate": null,
+    "time": null,
+    "title": "Big Nursery: New Rooms for 2 Day",
+    "description": "Big Nursery: New Rooms for 2 Day students."
+  },
+  {
+    "fromDate": "11/29/2024",
+    "toDate": null,
+    "time": null,
+    "title": "Big Nursery: New Rooms for 3 Day / 5 Day",
+    "description": "Big Nursery: New Rooms for 3 Day / 5 Day students."
+  },
+  {
+    "fromDate": "12/13/2024",
+    "toDate": null,
+    "time": "7pm",
+    "title": "Officers Meeting",
+    "description": "Officers meeting."
+  },
+  {
+    "fromDate": "01/06/2025",
+    "toDate": null,
+    "time": "10am - 11:30am",
+    "title": "Public Open House",
+    "description": "Public Open House for '24-'25 (Tentative)."
+  },
+  {
+    "fromDate": "01/09/2025",
+    "toDate": null,
+    "time": null,
+    "title": "No School - Parent Teacher Conferences",
+    "description": "YN: No school for Parent Teacher Conferences."
+  },
+  {
+    "fromDate": "01/10/2025",
+    "toDate": null,
+    "time": "7pm",
+    "title": "Board Meeting",
+    "description": "Board Meeting."
+  },
+  {
+    "fromDate": "01/11/2025",
+    "toDate": null,
+    "time": null,
+    "title": "No School - Parent Teacher Conferences",
+    "description": "BN: No school for Parent Teacher Conferences for 2 Day / 5 Day students."
+  },
+  {
+    "fromDate": "01/12/2025",
+    "toDate": null,
+    "time": null,
+    "title": "No School - Parent Teacher Conferences",
+    "description": "BN: No school for Parent Teacher Conferences for 3 Day students."
+  },
+  {
+    "fromDate": "01/15/2025",
+    "toDate": null,
+    "time": null,
+    "title": "No School - Martin Luther King Jr. Day",
+    "description": "School closed in observance of Martin Luther King Jr. Day."
+  },
+  {
+    "fromDate": "01/22/2025",
+    "toDate": null,
+    "time": null,
+    "title": "Current Family Registration Begins",
+    "description": "Registration begins for current families for '24-'25."
+  },
+  {
+    "fromDate": "01/29/2025",
+    "toDate": null,
+    "time": null,
+    "title": "Alumni Family Registration Begins",
+    "description": "Registration begins for alumni families for '24-'25."
+  },
+  {
+    "fromDate": "02/05/2025",
+    "toDate": null,
+    "time": null,
+    "title": "Public Registration Begins",
+    "description": "Public registration begins for '24-'25."
+  },
+  {
+    "fromDate": "02/14/2025",
+    "toDate": null,
+    "time": "7pm",
+    "title": "Officers Meeting",
+    "description": "Officers meeting."
+  },
+  {
+    "fromDate": "02/19/2025",
+    "toDate": "02/23/2025",
+    "time": null,
+    "title": "No School - February Recess",
+    "description": "School closed for February Recess."
+  },
+  {
+    "fromDate": "03/11/2025",
+    "toDate": null,
+    "time": null,
+    "title": "No School - Teacher Work Day",
+    "description": "Teacher work day, no school for students."
+  },
+  {
+    "fromDate": "03/12/2025",
+    "toDate": null,
+    "time": null,
+    "title": "BN: New Rooms for 2 Day",
+    "description": "BN: New Rooms for 2 Day students."
+  },
+  {
+    "fromDate": "03/13/2025",
+    "toDate": null,
+    "time": null,
+    "title": "BN: New Rooms for 3 Day / 5 Day",
+    "description": "BN: New Rooms for 3 Day / 5 Day students."
+  },
+  {
+    "fromDate": "03/13/2025",
+    "toDate": null,
+    "time": "7pm",
+    "title": "Board Meeting",
+    "description": "Board Meeting."
+  },
+  {
+    "fromDate": "03/29/2025",
+    "toDate": null,
+    "time": null,
+    "title": "No School - Spring Recess",
+    "description": "School closed for Spring Recess."
+  },
+  {
+    "fromDate": "04/01/2025",
+    "toDate": null,
+    "time": null,
+    "title": "Tuition Deposit Due",
+    "description": "'24-'25 Tuition Deposit Due."
+  },
+  {
+    "fromDate": "04/01/2025",
+    "toDate": "04/08/2025",
+    "time": null,
+    "title": "No School - Spring Recess",
+    "description": "School closed for Spring Recess."
+  },
+  {
+    "fromDate": "04/10/2025",
+    "toDate": null,
+    "time": "7pm",
+    "title": "Officers Meeting",
+    "description": "Officers meeting."
+  },
+  {
+    "fromDate": "05/08/2025",
+    "toDate": null,
+    "time": "7pm",
+    "title": "Board Meeting",
+    "description": "Board Meeting."
+  },
+  {
+    "fromDate": "05/21/2025",
+    "toDate": null,
+    "time": "10:15am - 11:30am",
+    "title": "Last Day Picnic",
+    "description": "YN: M/Tu Last Day Picnic at Buckland Park."
+  },
+  {
+    "fromDate": "05/23/2025",
+    "toDate": null,
+    "time": "10:15am - 11:30am",
+    "title": "Last Day Picnic",
+    "description": "YN: W/Th Last Day Picnic at Buckland Park."
+  },
+  {
+    "fromDate": "05/27/2025",
+    "toDate": null,
+    "time": null,
+    "title": "No School - Memorial Day",
+    "description": "School closed in observance of Memorial Day."
+  },
+  {
+    "fromDate": "06/01/2025",
+    "toDate": null,
+    "time": null,
+    "title": "Tuition Payment Due",
+    "description": "'24-'25 Tuition Payment Due."
+  },
+  {
+    "fromDate": "06/04/2025",
+    "toDate": null,
+    "time": null,
+    "title": "2 Day Last Day & Picnic",
+    "description": "Last day and picnic for 2 Day students."
+  },
+  {
+    "fromDate": "06/05/2025",
+    "toDate": null,
+    "time": null,
+    "title": "3 Day / 5 Day Last Day & Picnic",
+    "description": "Last day and picnic for 3 Day / 5 Day students."
+  },
+  {
+    "fromDate": "06/10/2025",
+    "toDate": "06/14/2025",
+    "time": null,
+    "title": "Summer Camp - Week 1",
+    "description": "First week of summer camp."
+  },
+  {
+    "fromDate": "06/12/2025",
+    "toDate": null,
+    "time": "7pm",
+    "title": "Transitional Board Meeting",
+    "description": "Transitional Board Meeting."
+  },
+  {
+    "fromDate": "06/17/2025",
+    "toDate": "06/20/2025",
+    "time": null,
+    "title": "Summer Camp - Week 2",
+    "description": "Second week of summer camp."
+  }
+]

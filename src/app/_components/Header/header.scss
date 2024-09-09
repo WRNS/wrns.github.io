@@ -1,0 +1,253 @@
+@import "@styles/mixins";
+
+.globalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 94vw;
+  left: 2.5vw;
+  position: fixed;
+  z-index: 10;
+
+  $column-width: 33%;
+
+  &__col-left,
+  &__col-right {
+    display: flex;
+    justify-content: flex-start;
+    width: $column-width;
+  }
+
+  &__col-center {
+    width: $column-width;
+    opacity: 1;
+    transition: 0.3s ease;
+
+    &.fade {
+      opacity: 0;
+    }
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    --border-width: 3px;
+
+    &.masthead-logo {
+      margin-top: 1rem;
+
+      .logo__image {
+        filter: invert(1);
+      }
+    }
+
+    // OLD INITIALS DESIGN
+    &__initials {
+      @include Veneer;
+      color: $white;
+      font-size: 3rem;
+      border-width: 0;
+      border-width: var(--border-width);
+      border-color: $white;
+      border-style: solid;
+      margin: 0.66rem 0 0;
+      display: flex;
+      padding: 0.15rem 0.33rem;
+    }
+  }
+
+  .tourLink {
+    color: $white;
+
+    &::before,
+    &::after {
+      background-color: $white;
+    }
+  }
+}
+
+.hamburger-menu {
+  background-color: transparent;
+  width: 60px;
+  height: 18px;
+  padding: 20px;
+  border: 0;
+
+  position: relative;
+  right: 0px;
+  top: 10px;
+
+  transform: rotate(0deg);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+
+  &-wrapper {
+    // position: fixed;
+    z-index: 200;
+    top: 0;
+    margin-left: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    height: 84px;
+
+    cursor: pointer;
+    transition: all 0.4s ease-in 0.2s;
+
+    &:hover,
+    &:active {
+      span {
+        &:nth-child(1) {
+          width: 30px;
+        }
+        &:nth-child(4) {
+          width: 36px;
+        }
+      }
+    }
+
+    &.open {
+      .hamburger-menu {
+        span {
+          background: $primary;
+
+          &:nth-child(1),
+          &:nth-child(4) {
+            opacity: 0;
+          }
+          &:nth-child(2) {
+            transform: rotate(45deg);
+          }
+          &:nth-child(3) {
+            transform: rotate(-45deg);
+          }
+        }
+      }
+    }
+  }
+
+  span {
+    position: absolute;
+    display: block;
+    height: 2px;
+    width: 40px;
+    background: $white;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+
+    &:nth-child(1) {
+      top: 0px;
+    }
+
+    &:nth-child(2),
+    &:nth-child(3) {
+      top: 8px;
+    }
+
+    &:nth-child(4) {
+      top: 16px;
+    }
+  }
+}
+
+// SLIDE-OUT NAVIGATION MENU STYLES
+
+.globalHeader-menu-container {
+  &.open {
+    .menus {
+      transform: translate(0px, 0px);
+    }
+  }
+
+  .menus {
+    transform: translate(100vw, 0px);
+    transition: 0.4s ease;
+    position: fixed;
+    z-index: 190;
+    top: 0;
+    right: 0;
+    width: 50vw;
+    background-color: #ffffff;
+    min-height: 100vh;
+    padding: 120px 120px 70px 120px;
+    transition: all 0.4s cubic-bezier(0.33, 1, 0.68, 1);
+    transform: translateX(50vw);
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: $mobile) {
+      padding: 80px 50px 50px 50px;
+      width: calc(100vw - 28px);
+      transform: translateX(100vw);
+      height: 100vh;
+      overflow-y: auto;
+    }
+  }
+}
+
+@media (max-width: $mobile) {
+  .globalHeader {
+    &__col-left,
+    &__col-right {
+      width: 50%;
+    }
+
+    &__col-center {
+      display: none;
+    }
+
+    &__col-right .hamburger-menu-wrapper {
+      transform: scale(0.8);
+    }
+
+    &-menu-container .menus {
+      padding: 80px 50px 50px 50px;
+      width: calc(100vw - 28px);
+      transform: translateX(100vw);
+      height: 100vh;
+      overflow-y: auto;
+    }
+  }
+}
+
+.header--invert {
+  $invert-transition: 0.3s ease;
+
+  .tourLink {
+    transition: $invert-transition;
+    color: $primary;
+
+    &::before,
+    &::after {
+      background-color: $primary;
+    }
+  }
+
+  .logo__initials {
+    transition: $invert-transition;
+    color: $primary;
+    border-color: $primary;
+  }
+
+  .hamburger-menu span {
+    transition: $invert-transition;
+    background: $primary;
+  }
+}
+
+@media (max-width: $desktop) {
+  .globalHeader {
+    &-menu-container .menus {
+      padding: 10vh 60px 40px 60px;
+    }
+  }
+}

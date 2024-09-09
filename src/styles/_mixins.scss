@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Veneer";
+  src: url("/fonts/veneer.woff2") format("woff2"), url("/fonts/veneer.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+$monospace: "Courier Prime", monospace;
+$sanserif: "Lato", sans-serif;
+$veneer: "Veneer", sans-serif;
+$rubik: "Rubik", sans-serif;
+
+@mixin Monospace {
+  font-family: $monospace;
+  font-size: 1rem;
+}
+
+@mixin SansSerif {
+  font-family: $sanserif;
+  font-size: 1rem;
+}
+
+@mixin Veneer {
+  font-family: $veneer;
+}
+
+@mixin Rubik {
+  font-family: $rubik;
+}
+
+$mobile: 640px;
+$tablet: 1024px;
+$desktop: 1366px;
+
+$page-width: 1200px;
+
+// ====== COLORS
+
+$white: #ffffff;
+$light: #eeeeee;
+$gray-light: #e6e6e6;
+$gray: #9e9e9e;
+$gray-dark: #696969;
+$dark: #221122;
+$black: #000000;
+
+$error: #b00020;
+
+$primary: #198667;
+$primary-variant: #125a3b;
+$primary-light: #1d9f7b;
+
+$secondary: #9ad5c3;
+$secondary-variant: #1d9f7b;
+$secondary-light: #f9f871;
+
+$bean: #533330;
+
+$callToAction: #e30452;
+$callToAction-dark: #c20f2d;
+
+// ===== MISC
+
+$standard-line-height: 1.5em;

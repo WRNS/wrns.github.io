@@ -1,0 +1,87 @@
+@import "@styles/mixins";
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1em;
+
+  &__group {
+    margin-bottom: 1em;
+  }
+
+  &__name-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @media (min-width: $desktop) {
+      flex-direction: row;
+
+      .contact-form__group {
+        width: calc(50% - 2rem);
+      }
+    }
+  }
+
+  &__label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+  }
+
+  &__input,
+  &__textarea {
+    @include Rubik;
+    font-size: 1.1rem;
+
+    width: 100%;
+    height: 3rem;
+
+    padding: 0.5em;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  &__textarea {
+    height: 12rem;
+  }
+
+  &__char-count {
+    text-align: right;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 0.3em;
+  }
+
+  &__checkbox {
+    margin-right: 0.5em;
+  }
+
+  &__submit {
+    @include Rubik;
+
+    font-size: 1rem;
+    font-weight: 700;
+
+    padding: 1em 2em;
+    margin: 1em 0 0;
+
+    width: 18em;
+
+    @media (max-width: $mobile) {
+      width: 100%;
+    }
+  }
+
+  &__error {
+    color: $error;
+    margin-top: 0.5em;
+  }
+
+  &__chevron {
+    font-size: 1.5rem;
+    margin-left: 0.66em;
+    color: $secondary-variant;
+  }
+}
