@@ -10,7 +10,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "prepare": "husky",
-    "build": "npm run lint-and-test && next build"
+    "build": "next build"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
