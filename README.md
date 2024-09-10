@@ -139,4 +139,4 @@ This project is licensed under the MIT License.
 
 ## Contact Information
 
-For any questions or concerns, please contact the operations manager [operationsmanager@wintonroad.org](mailto:operationsmanager@wintonroad.org).
+For any questions or concerns, please contact Winton Road's (webmaster)[mailto:mcurtis2@gmail.com] or operations manager [operationsmanager@wintonroad.org](mailto:operationsmanager@wintonroad.org).
