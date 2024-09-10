@@ -30,12 +30,17 @@ jobs:
           static_site_generator: next
 
       - name: Build with Next.js 🏗️
-        run: npx next build
+        run: |
+          npx next build
+
+      - name: List files in out 📂
+        run: |
+          ls -al ./out  # Debug step to list the contents of ./out to ensure the directory exists
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./out # Ensure this points to the correct build output directory
 
   deploy:
     environment:
