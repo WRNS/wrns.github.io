@@ -25,21 +25,17 @@ jobs:
         uses: ./.github/workflows/setup-node
 
       - name: Setup Pages ⚙️
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
         with:
           static_site_generator: next
 
       - name: Build with Next.js 🏗️
-        run: |
-          npx next build
-
-      - name: Show current working directory
-        run: pwd
+        run: npx next build
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out # Ensure this points to the correct build output directory
+          path: ./out
 
   deploy:
     environment:
