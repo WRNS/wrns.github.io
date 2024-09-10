@@ -1,0 +1,27 @@
+@import "@styles/mixins";
+
+.donation {
+  .section__heading {
+    line-height: 1.25em;
+  }
+
+  .btn {
+    width: 400px;
+
+    &__text-content {
+      @include Rubik;
+      width: 50%;
+      font-size: 1.5rem;
+    }
+  }
+
+  &__text {
+    width: 600px;
+    max-width: 85vw;
+    line-height: 1.5em;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 0 1rem 2rem;
+    margin: 2rem auto 4rem;
+  }
+}

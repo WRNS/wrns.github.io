@@ -1,0 +1,30 @@
+@import "@styles/mixins";
+
+.playdough-recipe {
+  &__container {
+    @media (min-width: $tablet) {
+      width: 33vw;
+    }
+  }
+}
+
+.parent-resources {
+  text-align: center;
+
+  &__list {
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p,
+    strong {
+      margin: 0;
+    }
+  }
+
+  &__list-item {
+    max-width: 80vw;
+  }
+}

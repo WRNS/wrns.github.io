@@ -1,0 +1,91 @@
+@import "@styles/mixins";
+
+.flyout-nav {
+  display: flex;
+  flex-direction: column;
+
+  .logo {
+    margin: 0 0 2rem;
+    justify-content: flex-start;
+
+    background-color: $primary-variant;
+    -webkit-mask-image: url("/images/WRNS-Logo.png"); /* Mask the PNG */
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-image: url("/images/WRNS-Logo.png");
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    display: block;
+    width: 177px;
+    height: 102px;
+
+    &__initials {
+      color: $primary;
+      border-color: $primary;
+    }
+  }
+
+  &__menu {
+    list-style-type: none;
+    margin: 0;
+
+    &--item {
+      position: relative;
+
+      margin: 0.66rem 0;
+
+      &:hover,
+      &:focus {
+        &::before {
+          opacity: 1;
+        }
+      }
+
+      &::before {
+        content: "";
+        width: 20px;
+        height: 35px;
+        background-color: $primary;
+        position: absolute;
+        top: -6px;
+        left: -30px;
+        opacity: 0;
+        transition: all 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+      }
+    }
+
+    &--xl-margin {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__link {
+    // font-size: 3.5vh;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .socials {
+    &-container {
+      display: flex;
+      width: 150px;
+      margin-top: 1rem;
+      justify-content: space-between;
+
+      svg {
+        height: 56px;
+        width: 56px;
+      }
+
+      @media screen and (min-width: $desktop) {
+        justify-content: space-between;
+      }
+    }
+
+    &-link {
+      margin: 0 0.33rem;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@import "@styles/mixins";
+
+.our-school {
+  .section__heading {
+    &:not(:first-child) {
+      margin-top: 4rem;
+    }
+  }
+}
+
+.our-goals {
+  &__list {
+    max-width: 600px;
+    font-size: 1.2rem;
+    margin: 0 auto;
+  }
+}
+
+.our-routines {
+  &__sub-heading {
+    margin-top: 5rem;
+  }
+}
