@@ -33,9 +33,8 @@ jobs:
         run: |
           npx next build
 
-      - name: List files in out 📂
-        run: |
-          ls -al ./out  # Debug step to list the contents of ./out to ensure the directory exists
+      - name: Show current working directory
+        run: pwd
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
