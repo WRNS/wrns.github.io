@@ -95,7 +95,7 @@ const Header = () => {
 
         <div className={`globalHeader__col-center ${hasPageBeenScrolled ? "fade" : ""}`}>
           <div className="logo masthead-logo">
-            <Image className="logo__image" src={"/images/WRNS-Logo.png"} width={106} height={61} alt="" />
+            <Image className="logo__image" src={"/images/WRNS-Logo.png"} width={133} height={76} alt="" />
           </div>
         </div>
 
