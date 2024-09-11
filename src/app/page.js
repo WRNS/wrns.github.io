@@ -29,7 +29,11 @@ export default function Home() {
 
   return (
     <main>
-      <Hero image={"/images/book-play.jpg"} title={"Winton Road Nursery School"} />
+      <Hero
+        image={"/images/book-play.jpg"}
+        title={"Winton Road Nursery School"}
+        description={"We Play. We Grow. We Nurture. We Work Together."}
+      />
 
       <section id="about-us" className="about-us background-primary section__layout">
         <h2 className="section__heading">About Us</h2>
