@@ -117,7 +117,9 @@ When an update to the project is ready to be deployed to http://www.wintonroad.o
 3. Smoke test the app locally on [http://localhost:3000](http://localhost:3000)
 4. Commit your changes: `git commit -m 'Add some feature'`.
 5. Push to the branch: `git push`.
-6. Open a Pull Request (PR) to merge your feature branch into the `master` branch.
+6. Open a Pull Request (PR) to merge your feature branch into the `main` branch.
+7. After the merge has been completed, GitHub Actions will take over and create a new PROD build of the application.
+8. The PROD creates a production-optimized output via NextJS which resides in the `public` branch.
 
 ### Troubleshooting
 
