@@ -16,5 +16,11 @@
     "message": "Upcoming school fair on August 20th!",
     "startDate": "2024-06-01T00:00:00Z",
     "endDate": "2024-06-21T00:00:00Z"
+  },
+  {
+    "type": "event",
+    "message": "<strong class='caps'>Officers' Board Meeting</strong> - Wednesday October 9th, 7:45pm to 8:30pm",
+    "startDate": "2024-10-01",
+    "endDate": "2024-10-09"
   }
 ]
