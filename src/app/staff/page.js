@@ -1,4 +1,4 @@
-import "./teachers.scss";
+import "./staff.scss";
 
 import Hero from "@components/Hero/hero";
 import ProfileCard from "@components/ProfileCard/profileCard";
@@ -59,7 +59,7 @@ const Teachers = () => {
         />
         <ProfileCard
           imageSrc="/images/teachers/timmery.jpg"
-          imagePosition="50% 30%"
+          imagePosition="50% 33%"
           name="Timmery Bors-Koefoed"
           role="Teacher"
           description="Timmery is excited to join Winton Road Nursery School. She studied early childhood education and development at
@@ -76,6 +76,17 @@ const Teachers = () => {
           role="Young Nursery Assistant"
           description="Anna is very excited to join the WRNS staff as a Young Nursery Assistant! All 3 of her children attended Winton Road and her family has loved being a part of this school. Anna has a background in healthcare as an RN and is looking forward to supporting and nurturing all the children at WRNS as they learn and grow. In the classroom and with her own family, Anna love's helping with art projects, reading stories, and spending time outside."
           alignRight
+        />
+      </section>
+
+      <section className="teacher-profiles section__layout">
+        <h2 className="section__heading">The Staff of Winton Road</h2>
+        <ProfileCard
+          imageSrc="/images/teachers/sarah.jpg"
+          imagePosition="50% 33%"
+          name="Sarah Sevedge"
+          role="Operations Manager"
+          description="After sending her daughter to WRNS in 2022 and 2023 while serving as board secretary and then board chair, she stepped into the role of Operations Manager starting in July 2024. Sarah holds a Masters in Music Education from the University of Buffalo and is a NYS certified educator. When she's not sending emails or updating spreadsheets, she's teaching piano, serving on local non-profit boards, playing dungeons & dragons, or reading a good book."
         />
       </section>
     </main>

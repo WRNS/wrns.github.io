@@ -52,8 +52,8 @@ export default function Navigation({ closeMenu }) {
           </Link>
         </li>
         <li className="flyout-nav__menu--item">
-          <Link className="flyout-nav__link" href="/teachers" onClick={closeNavMenu}>
-            Our Teachers
+          <Link className="flyout-nav__link" href="/staff" onClick={closeNavMenu}>
+            Our Staff
           </Link>
         </li>
         <li className="flyout-nav__menu--item">
