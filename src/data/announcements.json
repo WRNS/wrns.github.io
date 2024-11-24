@@ -13,12 +13,6 @@
   },
   {
     "type": "event",
-    "message": "Upcoming school fair on August 20th!",
-    "startDate": "2024-06-01T00:00:00Z",
-    "endDate": "2024-06-21T00:00:00Z"
-  },
-  {
-    "type": "event",
     "message": "<strong class='caps'>Officers' Board Meeting</strong> - Wednesday October 9th, 7:45pm to 8:30pm",
     "startDate": "2024-10-01",
     "endDate": "2024-10-09"
@@ -34,5 +28,11 @@
     "message": "<strong>Makeup Picture Day</strong> - October 29 & 30",
     "startDate": "2024-10-24",
     "endDate": "2024-10-31"
+  },
+  {
+    "type": "promotion",
+    "message": "On December 3, WRNS is proud to be a part of <strong><a class=\"link\" href='/united-way'>United Way's ROC the Day 2024</a></strong>",
+    "startDate": "2024-11-24",
+    "endDate": "2024-12-04"
   }
 ]
