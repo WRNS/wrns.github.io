@@ -21,6 +21,20 @@ export default function CurrentFamilies() {
       <Hero image={"/images/science.jpg"} title="Family Information" imagePosition="50% 0%" />
 
       <section id="parent-resources" className="section__layout parent-resources background-primary">
+        <Link
+          className="document-links__link btn btn--icon caps btn--inverse"
+          href="https://www.jovial.org/wintonroad/family"
+        >
+          <ReactSVG
+            className="svg-icon--large"
+            src="/svgs/child.svg"
+            beforeInjection={(svg) => {
+              svg.setAttribute("style", `fill: ${cssPrimary}`);
+            }}
+          />
+          <span className="btn__text-content">Register for 2025/26</span>
+        </Link>
+
         <h2 className="section__heading">Resources</h2>
         <ul className="parent-resources__list text-content">
           <li className="parent-resources__list-item">

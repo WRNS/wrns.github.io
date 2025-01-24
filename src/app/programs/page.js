@@ -36,7 +36,7 @@ export default function Programs() {
             </table>
             <ul class="notes">
               <li>
-                Children in Young Nursery must be two (2) years of age by September 1<sup>st</sup> of their enrollment
+                Children in Young Nursery must be two (2) years of age by December 1<sup>st</sup> of their enrollment
                 year to attend.
               </li>
             </ul>

@@ -1,8 +1,11 @@
+"use client";
+
 import "./enrollment.scss";
 
 import Hero from "@components/Hero/hero";
 import Image from "next/image";
 import Link from "next/link";
+import { ReactSVG } from "react-svg";
 
 export default function Enrollment() {
   return (
@@ -11,6 +14,16 @@ export default function Enrollment() {
 
       <section id="enrollment" className="section__layout enrollment">
         <div className="enrollment__container">
+          <Link className="document-links__link btn btn--icon caps" href="/docs/2025-2026 Enrollment Info Sheet.pdf">
+            <ReactSVG
+              className="svg-icon--large"
+              src="/svgs/pdf.svg"
+              beforeInjection={(svg) => {
+                svg.setAttribute("style", `fill: #fff`);
+              }}
+            />
+            <span className="btn__text-content">2025-2026 Enrollment Information</span>
+          </Link>
           <div className="number-heading">
             <div className="number-heading__box">1</div>
             <h3 className="number-heading__header">Schedule a Tour</h3>
