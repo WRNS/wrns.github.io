@@ -37,7 +37,7 @@
   },
   {
     "type": "alert",
-    "message": "<span class='caps'>Current Families</span> may begin applying through the <a href='www.jovial.org/wintonroad/family'>Family Portal</a> on January 27 @ 8am<br/><br/><span class='caps'>Alumni Families</span> may begin applying through the <a href='https://www.jovial.org/wintonroad/hello'>Hello Portal</a> on February 3 @ 8am<br/><br/><span class='caps'>New Families</span> may begin applying through the <a href='https://www.jovial.org/wintonroad/hello'>Hello Portal</a> on February 10 @ 8am",
+    "message": "<span class='caps'>Current Families</span> may begin applying through the <a href='https://www.jovial.org/wintonroad/family'>Family Portal</a> on January 27 @ 8am<br/><br/><span class='caps'>Alumni Families</span> may begin applying through the <a href='https://www.jovial.org/wintonroad/hello'>Hello Portal</a> on February 3 @ 8am<br/><br/><span class='caps'>New Families</span> may begin applying through the <a href='https://www.jovial.org/wintonroad/hello'>Hello Portal</a> on February 10 @ 8am",
     "startDate": "2025-01-01",
     "endDate": "2025-03-01"
   }
