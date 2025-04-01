@@ -40,5 +40,11 @@
     "message": "<span class='caps'>Current Families</span> may begin applying through the <a href='https://www.jovial.org/wintonroad/family'>Family Portal</a> on January 27 @ 8am<br/><br/><span class='caps'>Alumni Families</span> may begin applying through the <a href='https://www.jovial.org/wintonroad/hello'>Hello Portal</a> on February 3 @ 8am<br/><br/><span class='caps'>New Families</span> may begin applying through the <a href='https://www.jovial.org/wintonroad/hello'>Hello Portal</a> on February 10 @ 8am",
     "startDate": "2025-01-01",
     "endDate": "2025-03-01"
+  },
+  {
+    "type": "hiring",
+    "message": "<a href='https://www.indeed.com/job/part-time-lead-teacher-co-op-preschool-ef46f7413196a4a1'>WRNS is Hiring!</a> We are looking for our next Big Nursery Lead Teacher. Check out the <a href='/docs/2025 JOB DESCRIPTION - BIG NURSERY LEAD TEACHER.pdf'>job description</a> for full details.",
+    "startDate": "2025-04-01",
+    "endDate": "2025-06-01"
   }
 ]
