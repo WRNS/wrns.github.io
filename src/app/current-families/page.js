@@ -54,7 +54,7 @@ export default function CurrentFamilies() {
           </li>
 
           <li className="parent-resources__list-item">
-            <Link className="btn btn--icon btn--inverse" href="/docs/wrns-calendar-2024-2025.pdf">
+            <Link className="btn btn--icon btn--inverse" href="/docs/wrns-calendar-2025-2026.pdf">
               <ReactSVG
                 className="svg-icon--large"
                 src="/svgs/calendar.svg"
