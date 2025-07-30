@@ -1,4 +1,4 @@
-@import "@styles/mixins";
+@use "@styles/mixins";
 
 .hero {
   &__container {
@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
 
-    @media (min-width: $tablet) {
+    @media (min-width: mixins.$tablet) {
       height: 66vh;
     }
   }
@@ -20,7 +20,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba($black, 0.66);
+    background-color: rgba(mixins.$black, 0.66);
     z-index: 1;
   }
 
@@ -34,7 +34,7 @@
     position: relative;
     z-index: 2;
 
-    @media screen and (min-width: $tablet) {
+    @media screen and (min-width: mixins.$tablet) {
       font-size: 72px;
 
       span:first-child {
@@ -51,7 +51,7 @@
     font-size: 60px;
     text-align: center;
 
-    color: $white;
+    color: mixins.$white;
   }
 
   &__description {
@@ -62,6 +62,6 @@
     font-size: 24px;
     text-align: center;
 
-    color: $white;
+    color: mixins.$white;
   }
 }

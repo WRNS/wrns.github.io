@@ -1,8 +1,8 @@
-@import "@styles/mixins";
+@use "@styles/mixins";
 
 .playdough-recipe {
   &__container {
-    @media (min-width: $tablet) {
+    @media (min-width: mixins.$tablet) {
       width: 33vw;
     }
   }

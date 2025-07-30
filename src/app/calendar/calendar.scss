@@ -1,4 +1,4 @@
-@import "@styles/mixins";
+@use "@styles/mixins";
 
 $calendarWidth: 800px;
 $maxCalendarWidth: 80vw;
@@ -19,11 +19,11 @@ $maxCalendarWidth: 80vw;
   &__filter-note {
     margin: 0;
     font-size: 0.9rem;
-    color: $gray-dark;
+    color: mixins.$gray-dark;
   }
 
   &__select {
-    @include Rubik;
+    @include mixins.Rubik;
     font-size: 1rem;
 
     display: block;
@@ -34,10 +34,10 @@ $maxCalendarWidth: 80vw;
 
     background-color: transparent;
 
-    border: 2px solid $primary;
+    border: 2px solid mixins.$primary;
 
     &:focus-visible {
-      outline: 2px solid $primary-variant;
+      outline: 2px solid mixins.$primary-variant;
       outline-offset: 0px;
       transition: 0;
     }
@@ -53,7 +53,7 @@ $maxCalendarWidth: 80vw;
       content: "";
       display: block;
       margin: 0 0 3rem;
-      border-top: 2px solid $primary;
+      border-top: 2px solid mixins.$primary;
     }
 
     // &:nth-child(2n) {

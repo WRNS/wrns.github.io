@@ -1,4 +1,4 @@
-@import "@styles/mixins";
+@use "@styles/mixins";
 
 .flyout-nav {
   display: flex;
@@ -8,7 +8,7 @@
     margin: 0 0 2rem;
     justify-content: flex-start;
 
-    background-color: $primary-variant;
+    background-color: mixins.$primary-variant;
     -webkit-mask-image: url("/images/WRNS-Logo.png"); /* Mask the PNG */
     -webkit-mask-size: contain;
     -webkit-mask-repeat: no-repeat;
@@ -20,8 +20,8 @@
     height: 102px;
 
     &__initials {
-      color: $primary;
-      border-color: $primary;
+      color: mixins.$primary;
+      border-color: mixins.$primary;
     }
   }
 
@@ -45,7 +45,7 @@
         content: "";
         width: 20px;
         height: 35px;
-        background-color: $primary;
+        background-color: mixins.$primary;
         position: absolute;
         top: -6px;
         left: -30px;
@@ -79,7 +79,7 @@
         width: 56px;
       }
 
-      @media screen and (min-width: $desktop) {
+      @media screen and (min-width: mixins.$desktop) {
         justify-content: space-between;
       }
     }

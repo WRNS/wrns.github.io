@@ -1,4 +1,4 @@
-@import "@styles/mixins";
+@use "@styles/mixins";
 
 #programs {
   .table-container {
@@ -9,7 +9,7 @@
 
     margin: 0 auto;
 
-    @media screen and (min-width: $tablet) {
+    @media screen and (min-width: mixins.$tablet) {
       flex-direction: row;
       align-items: normal;
     }
@@ -31,7 +31,7 @@
     flex-direction: column;
     align-self: center;
 
-    @media screen and (min-width: $tablet) {
+    @media screen and (min-width: mixins.$tablet) {
       flex-direction: row;
       align-self: flex-start;
 
@@ -47,7 +47,7 @@
 
     li {
       margin-bottom: 1.5rem;
-      line-height: $standard-line-height;
+      line-height: mixins.$standard-line-height;
     }
   }
 }
@@ -65,14 +65,14 @@
     background-color: transparent;
 
     th {
-      border-bottom: 2px solid $primary;
+      border-bottom: 2px solid mixins.$primary;
     }
   }
 
   tbody {
     tr {
       &:nth-child(2n) {
-        background-color: rgba($primary, 0.06);
+        background-color: rgba(mixins.$primary, 0.06);
       }
     }
 
@@ -87,7 +87,7 @@
   display: flex;
   flex-direction: column;
 
-  @media screen and (min-width: $tablet) {
+  @media screen and (min-width: mixins.$tablet) {
     padding: 3rem 26vw;
     margin: 0 auto;
   }
@@ -100,17 +100,17 @@
     margin-top: 3rem;
 
     &__box {
-      @include Monospace;
+      @include mixins.Monospace;
 
       width: 64px;
       height: 64px;
-      border: 3px solid $primary;
+      border: 3px solid mixins.$primary;
 
       display: flex;
       justify-content: center;
       align-items: center;
 
-      color: $primary;
+      color: mixins.$primary;
       font-size: 3rem;
       font-weight: 700;
     }

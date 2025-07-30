@@ -1,4 +1,4 @@
-@import "@styles/mixins";
+@use "@styles/mixins";
 
 .announcement {
   display: flex;
@@ -9,8 +9,8 @@
   position: relative;
   overflow: hidden;
 
-  background-color: $secondary;
-  color: $black;
+  background-color: mixins.$secondary;
+  color: mixins.$black;
 
   transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out, padding 0.5s ease-in-out;
   opacity: 1;
@@ -31,13 +31,13 @@
     font-size: 0.9rem;
     font-weight: 700;
     text-align: left;
-    line-height: $standard-line-height;
+    line-height: mixins.$standard-line-height;
   }
 
   .btn {
     &__close-button {
-      @include Rubik;
-      color: $black;
+      @include mixins.Rubik;
+      color: mixins.$black;
       font-weight: 500;
       font-size: 1rem;
 

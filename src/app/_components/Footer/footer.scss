@@ -1,4 +1,4 @@
-@import "@styles/mixins";
+@use "@styles/mixins";
 
 footer {
   .blue-box {
@@ -6,8 +6,8 @@ footer {
     flex-direction: column;
     padding: 1rem 10vw 1.5rem;
 
-    color: $light;
-    background-color: $primary;
+    color: mixins.$light;
+    background-color: mixins.$primary;
   }
 
   .contact-container {
@@ -18,7 +18,7 @@ footer {
     width: 800px;
     max-width: 80vw;
 
-    @media screen and (min-width: $tablet) {
+    @media screen and (min-width: mixins.$tablet) {
       flex-direction: row;
       justify-content: space-around;
     }
@@ -32,7 +32,7 @@ footer {
     &-container {
       display: flex;
 
-      @media screen and (min-width: $desktop) {
+      @media screen and (min-width: mixins.$desktop) {
         justify-content: space-between;
       }
     }
@@ -56,7 +56,7 @@ footer {
     max-width: 80vw;
   }
 
-  @media screen and (min-width: $tablet) {
+  @media screen and (min-width: mixins.$tablet) {
     .socials,
     .address {
       margin: 0 2rem;

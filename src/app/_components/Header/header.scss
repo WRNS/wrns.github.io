@@ -1,4 +1,4 @@
-@import "@styles/mixins";
+@use "@styles/mixins";
 
 .globalHeader {
   display: flex;
@@ -46,12 +46,12 @@
 
     // OLD INITIALS DESIGN
     &__initials {
-      @include Veneer;
-      color: $white;
+      @include mixins.Veneer;
+      color: mixins.$white;
       font-size: 3rem;
       border-width: 0;
       border-width: var(--border-width);
-      border-color: $white;
+      border-color: mixins.$white;
       border-style: solid;
       margin: 0.66rem 0 0;
       display: flex;
@@ -60,11 +60,11 @@
   }
 
   .tourLink {
-    color: $white;
+    color: mixins.$white;
 
     &::before,
     &::after {
-      background-color: $white;
+      background-color: mixins.$white;
     }
   }
 }
@@ -115,7 +115,7 @@
     &.open {
       .hamburger-menu {
         span {
-          background: $primary;
+          background: mixins.$primary;
 
           &:nth-child(1),
           &:nth-child(4) {
@@ -137,7 +137,7 @@
     display: block;
     height: 2px;
     width: 40px;
-    background: $white;
+    background: mixins.$white;
     opacity: 1;
     left: 0;
     transform: rotate(0deg);
@@ -184,7 +184,7 @@
     display: flex;
     flex-direction: column;
 
-    @media (max-width: $mobile) {
+    @media (max-width: mixins.$mobile) {
       padding: 80px 50px 50px 50px;
       width: calc(100vw - 28px);
       transform: translateX(100vw);
@@ -194,7 +194,7 @@
   }
 }
 
-@media (max-width: $mobile) {
+@media (max-width: mixins.$mobile) {
   .globalHeader {
     &__col-left,
     &__col-right {
@@ -224,27 +224,27 @@
 
   .tourLink {
     transition: $invert-transition;
-    color: $primary;
+    color: mixins.$primary;
 
     &::before,
     &::after {
-      background-color: $primary;
+      background-color: mixins.$primary;
     }
   }
 
   .logo__initials {
     transition: $invert-transition;
-    color: $primary;
-    border-color: $primary;
+    color: mixins.$primary;
+    border-color: mixins.$primary;
   }
 
   .hamburger-menu span {
     transition: $invert-transition;
-    background: $primary;
+    background: mixins.$primary;
   }
 }
 
-@media (max-width: $desktop) {
+@media (max-width: mixins.$desktop) {
   .globalHeader {
     &-menu-container .menus {
       padding: 10vh 60px 40px 60px;

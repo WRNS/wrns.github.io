@@ -1,4 +1,4 @@
-@import "@styles/mixins";
+@use "@styles/mixins";
 
 .about-us {
   display: flex;
@@ -8,14 +8,14 @@
   padding: 2rem 6vw;
 
   &__text {
-    line-height: $standard-line-height;
+    line-height: mixins.$standard-line-height;
     font-size: 1.33rem;
     font-weight: 500;
     padding: 0 1rem;
     margin-bottom: 4rem;
   }
 
-  @media (min-width: $desktop) {
+  @media (min-width: mixins.$desktop) {
     padding: 3rem 26vw;
     font-size: 1rem;
   }
@@ -28,7 +28,7 @@
     width: 100%;
     margin-bottom: 4rem;
 
-    @media (min-width: $desktop) {
+    @media (min-width: mixins.$desktop) {
       flex-direction: row;
     }
   }
@@ -37,7 +37,7 @@
     width: 100%;
     margin-left: 2rem;
 
-    @media (max-width: $desktop) {
+    @media (max-width: mixins.$desktop) {
       margin: 0;
     }
   }

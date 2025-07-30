@@ -1,4 +1,4 @@
-@import "@styles/mixins";
+@use "@styles/mixins";
 
 .contact-form {
   max-width: 600px;
@@ -14,7 +14,7 @@
     flex-direction: column;
     justify-content: space-between;
 
-    @media (min-width: $desktop) {
+    @media (min-width: mixins.$desktop) {
       flex-direction: row;
 
       .contact-form__group {
@@ -31,7 +31,7 @@
 
   &__input,
   &__textarea {
-    @include Rubik;
+    @include mixins.Rubik;
     font-size: 1.1rem;
 
     width: 100%;
@@ -59,7 +59,7 @@
   }
 
   &__submit {
-    @include Rubik;
+    @include mixins.Rubik;
 
     font-size: 1rem;
     font-weight: 700;
@@ -69,19 +69,19 @@
 
     width: 18em;
 
-    @media (max-width: $mobile) {
+    @media (max-width: mixins.$mobile) {
       width: 100%;
     }
   }
 
   &__error {
-    color: $error;
+    color: mixins.$error;
     margin-top: 0.5em;
   }
 
   &__chevron {
     font-size: 1.5rem;
     margin-left: 0.66em;
-    color: $secondary-variant;
+    color: mixins.$secondary-variant;
   }
 }
