@@ -1,3 +1,6 @@
+export const dynamic = "force-static";
+export const revalidate = 0;
+
 export default function manifest() {
   return {
     name: 'Winton Road Nursery School',

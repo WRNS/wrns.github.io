@@ -1,11 +1,11 @@
-@import "@styles/mixins";
+@use "@styles/mixins";
 
 .enrollment {
   font-size: 1.25rem;
   display: flex;
   flex-direction: column;
 
-  @media screen and (min-width: $tablet) {
+  @media screen and (min-width: mixins.$tablet) {
     padding: 3rem 26vw;
     margin: 0 auto;
   }
@@ -18,17 +18,17 @@
     margin-top: 3rem;
 
     &__box {
-      @include Monospace;
+      @include mixins.Monospace;
 
       width: 64px;
       height: 64px;
-      border: 3px solid $primary;
+      border: 3px solid mixins.$primary;
 
       display: flex;
       justify-content: center;
       align-items: center;
 
-      color: $primary;
+      color: mixins.$primary;
       font-size: 3rem;
       font-weight: 700;
     }

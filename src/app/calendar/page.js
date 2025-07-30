@@ -6,7 +6,7 @@ import { useMemo, useState } from "react";
 
 import Events from "@components/Events/events";
 import Hero from "@components/Hero/hero";
-import calendarJSON from "@data/calendar24-25.json";
+import calendarJSON from "@data/calendar25-26.json";
 
 export default function Calendar() {
   const upcomingDaysLimit = 60;

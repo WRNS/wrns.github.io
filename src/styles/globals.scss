@@ -1,23 +1,9 @@
-@import "./mixins";
+@use "./mixins";
 
 :root {
-  --light: #{$light};
-  --primary: #{$primary};
-  --white: #{$white};
-}
-
-.remove-me-later {
-  // REMOVE THIS BEFORE GOING TO PROD
-
-  color: $error;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  text-align: center;
-  width: 12rem;
-  margin: 0 auto 2rem;
-  padding: 1rem;
-  border: 1px solid $error;
+  --light: #{mixins.$light};
+  --primary: #{mixins.$primary};
+  --white: #{mixins.$white};
 }
 
 * {
@@ -34,7 +20,7 @@ body {
 }
 
 *:focus-visible {
-  outline: 2px solid $primary;
+  outline: 2px solid mixins.$primary;
   outline-offset: 4px;
   transition: 0;
 }
@@ -44,18 +30,18 @@ body {
 }
 
 body {
-  color: $black;
-  background: $light;
+  color: mixins.$black;
+  background: mixins.$light;
 
-  @include Rubik;
+  @include mixins.Rubik;
 }
 
 a {
-  color: $primary-variant;
+  color: mixins.$primary-variant;
   text-decoration: underline;
 
   &.alt-link {
-    color: $white;
+    color: mixins.$white;
   }
 }
 
@@ -68,46 +54,46 @@ p {
 }
 
 *.white {
-  color: $white;
+  color: mixins.$white;
 }
 
 *.primary {
-  color: $primary;
+  color: mixins.$primary;
 }
 
 h1 {
-  @include Veneer;
+  @include mixins.Veneer;
   font-size: 48px;
   font-weight: 200;
-  color: $primary;
+  color: mixins.$primary;
 }
 
 h2 {
-  @include Veneer;
+  @include mixins.Veneer;
   font-size: 40px;
   font-weight: 200 !important;
   line-height: 1.33em;
 
-  color: $primary;
+  color: mixins.$primary;
 }
 
 h3 {
-  @include Rubik;
+  @include mixins.Rubik;
   font-size: 24px;
   font-weight: 700;
   line-height: 1.33em;
 
-  color: $primary;
+  color: mixins.$primary;
 
   margin: 1rem 0 0 0;
 }
 
 h4 {
-  @include Rubik;
+  @include mixins.Rubik;
   font-size: 18px;
   margin: 1rem 0 0 0;
   font-weight: 700;
-  color: $primary;
+  color: mixins.$primary;
 }
 
 .caps {
@@ -119,7 +105,7 @@ h4 {
   margin: 2rem auto;
   width: 80vw;
   max-width: 1024px;
-  line-height: $standard-line-height;
+  line-height: mixins.$standard-line-height;
 
   > p {
     margin-top: 2rem;
@@ -133,7 +119,7 @@ ol {
 
   li {
     margin: 0.66em 0;
-    line-height: $standard-line-height;
+    line-height: mixins.$standard-line-height;
   }
 }
 
@@ -142,14 +128,14 @@ ol {
     margin-top: 0;
     margin-bottom: 0;
     padding: 5rem 6vw;
-    background-color: $light;
+    background-color: mixins.$light;
 
     &.background-primary {
-      background-color: $primary;
-      color: $white;
+      background-color: mixins.$primary;
+      color: mixins.$white;
 
       .section__heading {
-        color: $white;
+        color: mixins.$white;
       }
     }
   }
@@ -166,7 +152,7 @@ ol {
 
   &__divider {
     height: 2px;
-    background: $primary;
+    background: mixins.$primary;
     border: 0;
     margin: 2rem 0;
   }
@@ -182,19 +168,19 @@ ol {
   transition: 0.3s ease;
   will-change: transform;
 
-  color: $white;
+  color: mixins.$white;
   text-decoration: none;
 
-  border: 2px solid $white;
-  background-color: $primary;
+  border: 2px solid mixins.$white;
+  background-color: mixins.$primary;
 
   margin-bottom: 1.33rem;
   border-radius: 0.5rem;
 
   &:focus,
   &:hover {
-    background-color: rgba($primary-variant, 1);
-    color: $white;
+    background-color: rgba(mixins.$primary-variant, 1);
+    color: mixins.$white;
   }
 
   &--icon {
@@ -208,7 +194,7 @@ ol {
     margin-right: auto;
     padding: 1em 0.66em;
 
-    border: 2px solid $primary;
+    border: 2px solid mixins.$primary;
 
     .svg-icon {
       width: 48px;
@@ -232,13 +218,13 @@ ol {
   }
 
   &--inverse {
-    background-color: $white;
-    color: $primary;
+    background-color: mixins.$white;
+    color: mixins.$primary;
 
     &:hover,
     &:focus {
-      color: $primary;
-      background-color: rgba($gray-light, 1);
+      color: mixins.$primary;
+      background-color: rgba(mixins.$gray-light, 1);
     }
   }
 
@@ -251,7 +237,7 @@ ol {
     &::before,
     &::after {
       content: "";
-      background-color: $primary;
+      background-color: mixins.$primary;
       display: block;
       height: 2px;
       left: -60%;

@@ -1,10 +1,10 @@
-@import "@styles/mixins";
+@use "@styles/mixins";
 
 .profile-card {
   display: flex;
   flex-direction: column;
 
-  background: $white;
+  background: mixins.$white;
   border-radius: 10px;
 
   overflow: hidden;
@@ -13,12 +13,12 @@
 
   margin: 4rem auto;
 
-  @media (min-width: $tablet) {
+  @media (min-width: mixins.$tablet) {
     flex-direction: row;
   }
 
   &--right {
-    @media (min-width: $tablet) {
+    @media (min-width: mixins.$tablet) {
       flex-direction: row-reverse;
 
       .profile-card__image {
@@ -33,7 +33,7 @@
     height: 200px;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
 
-    @media (min-width: $tablet) {
+    @media (min-width: mixins.$tablet) {
       width: 350px;
       height: 400px;
       clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
@@ -58,12 +58,12 @@
     margin: 0;
     font-size: 24px;
     font-weight: 700;
-    color: $primary;
+    color: mixins.$primary;
   }
 
   &__role {
-    background: $primary;
-    color: $white;
+    background: mixins.$primary;
+    color: mixins.$white;
     font-weight: 700;
     padding: 5px 10px;
     border-radius: 5px;
@@ -74,6 +74,6 @@
   &__description {
     margin-top: 10px;
     font-size: 16px;
-    color: $black;
+    color: mixins.$black;
   }
 }
