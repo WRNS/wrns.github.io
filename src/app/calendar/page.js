@@ -103,7 +103,7 @@ export default function Calendar() {
       <Hero
         image={"/images/dragon.jpg"}
         title={"School Calendar"}
-        description={"2024-2025 School Year"}
+        description={"2025-2026 School Year"}
         imagePosition="50% 60%"
       />
 
