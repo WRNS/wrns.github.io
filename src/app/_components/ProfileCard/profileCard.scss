@@ -35,7 +35,7 @@
 
     @media (min-width: mixins.$tablet) {
       width: 350px;
-      height: 400px;
+      height: 450px;
       clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
     }
 
@@ -74,6 +74,7 @@
   &__description {
     margin-top: 10px;
     font-size: 16px;
+    line-height: 1.33em;
     color: mixins.$black;
   }
 }

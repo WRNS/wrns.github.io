@@ -73,14 +73,14 @@ export default function Enrollment() {
           <h3>Important Enrollment Dates</h3>
           <ul>
             <li>
-              <strong className="primary">January 27:</strong> Registration for returning families begins.
+              <strong className="primary">January 26:</strong> Registration for returning families begins.
             </li>
             <li>
-              <strong className="primary">February 3:</strong> Registration for alumni families (without currently
+              <strong className="primary">February 2:</strong> Registration for alumni families (without currently
               enrolled students) begins.
             </li>
             <li>
-              <strong className="primary">February 10:</strong> Registration for new families (public enrollment)
+              <strong className="primary">February 9:</strong> Registration for new families (public enrollment)
               begins.
             </li>
           </ul>
