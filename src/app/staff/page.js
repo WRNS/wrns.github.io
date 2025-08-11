@@ -28,11 +28,11 @@ const Teachers = () => {
           alignRight
         />
         <ProfileCard
-          imageSrc="/images/teachers/maureen.jpg"
-          imagePosition="50% 30%"
-          name="Maureen Hickey"
+          imageSrc="/images/teachers/kourtney.jpg"
+          imagePosition="80% 30%"
+          name="Kourtney Grant"
           role="Teacher"
-          description="Maureen Hickey holds a Bachelors Degree in Physical Education with a minor in music and concentration in dance from SUNY Cortland, and a Masters Degree in Sports Medicine & Athletic Training from Temple University. She has also taken post-graduate classes in early childhood education from MCC and University of Rochester. She has demonstrated a life-long commitment to health, fitness, and wellness, and has incorporated each of these into her curriculum in all of the schools in which she's taught. Mrs. Hickey chose to teach at WRNS after both her son and daughter had such positive experiences in this preschool environment. Two of her grandchildren are also WRNS alums."
+          description="Kourtney Grant is excited to join the Winton Road Nursery School staff after experiencing firsthand the impact of its nurturing, play-based environment. Her connection to the school began as a parent, and she was drawn to its thoughtful approach to early childhood education and strong sense of community. She holds a degree in Elementary Education and brings experience as both an educator, advocate, and a mom of three. With a background in American Sign Language and a passion for inclusive, hands-on learning, Kourtney creates a classroom where children feel safe, curious, and celebrated. She especially enjoys guiding young learners through art, music, nature, and imaginative play. Outside the classroom, Kourtney loves camping and hiking with her family, working in her garden, and getting lost in a good book. She's looking forward to partnering with Winton Road families during these joyful early years."
         />
         <ProfileCard
           imageSrc="/images/teachers/gaoxia.jpg"

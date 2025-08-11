@@ -1,6 +1,9 @@
+"use client";
 import "./programs.scss";
 
 import Hero from "@components/Hero/hero";
+import Link from "next/link";
+import { ReactSVG } from "react-svg";
 
 export default function Programs() {
   return (
@@ -96,6 +99,16 @@ export default function Programs() {
             </ul>
           </div>
         </div>
+        <Link className="document-links__link btn btn--icon caps" href="/docs/2025-2026 Tour Folder Insert.pdf">
+            <ReactSVG
+              className="svg-icon--large"
+              src="/svgs/pdf.svg"
+              beforeInjection={(svg) => {
+                svg.setAttribute("style", `fill: #fff`);
+              }}
+            />
+            <span className="btn__text-content">Full Program Details</span>
+          </Link>  
       </section>
     </main>
   );
