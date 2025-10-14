@@ -21,7 +21,7 @@ export default function CurrentFamilies() {
       <Hero image={"/images/science.jpg"} title="Family Information" imagePosition="50% 0%" />
 
       <section id="parent-resources" className="section__layout parent-resources background-primary">
-        <Link
+        {/* <Link
           className="document-links__link btn btn--icon caps btn--inverse"
           href="https://www.jovial.org/wintonroad/family"
         >
@@ -33,7 +33,7 @@ export default function CurrentFamilies() {
             }}
           />
           <span className="btn__text-content">Register for 2025/26</span>
-        </Link>
+        </Link> */}
 
         <h2 className="section__heading">Resources</h2>
         <ul className="parent-resources__list text-content">
@@ -120,23 +120,32 @@ export default function CurrentFamilies() {
       </section>
 
       <section className="playdough-recipe  section__layout">
-        <h2 className="section__heading playdough-recipe__title">Playdough recipe</h2>
+        <h2 className="section__heading playdough-recipe__title">WRNS Playdough recipe</h2>
         <div className="playdough-recipe__container  text-content">
-          <h4 className="playdough-recipe__note">Please double the recipe when bringing playdough in for the class.</h4>
+          <h3 className="playdough-recipe__note">Please bring 1 batch when bringing playdough in for the class.</h3>
+
+          <h3>Ingredients</h3>
           <ul className="playdough-recipe__list">
             <li className="playdough-recipe__list-item">4 cups flour</li>
             <li className="playdough-recipe__list-item">1 cup salt</li>
             <li className="playdough-recipe__list-item">8 tablespoons cream of tartar</li>
             <li className="playdough-recipe__list-item">4 cups water</li>
-            <li className="playdough-recipe__list-item">4 tablespoons oil</li>
-            <li className="playdough-recipe__list-item">food coloring</li>
+            <li className="playdough-recipe__list-item">4 tablespoons vegetable or canola oil</li>
+            <li className="playdough-recipe__list-item">Food coloring</li>
           </ul>
-          <p className="playdough-recipe__instructions">
-            Cook all ingredients together over medium heat. Cool and knead on a floured surface. Store in an airtight
-            container.
-          </p>
+          <h3>Mixing Instructions</h3>
+          <ol className="playdough-recipe__instructions">
+            <li>In a medium bowl, combine the salt, cream of tartar, water, vegetable oil, and food coloring.</li>
+            <li>In a medium saucepan, add the wet mixture to the flour.</li>
+            <li>Cook over medium low heat, stirring frequently with a wooden spoon or rubber spatula. If it sticks to the bottom of the pan, turn down the heat. You&apos;ll know it&apos;s cooking well when you stir and can start to see the bottom of the pan.</li>
+            <li>When the mixture has formed a rough shaggy dough and is difficult to stir for an adult, remove from the heat.</li>
+            <li>Take the dough out of the pan and let rest on a floured surface to cool. It will be very hot!</li>
+            <li>Once cooled, with floured hands, knead until smooth. You&apos;ll want to do this when the dough is still a little warm and not cold. You can use a stand mixer with the dough hook attachment for this, but be careful not to overwork the dough - it will get very tough if overmixed.</li>
+            <li>If the dough seems too wet, add more flour. If it seems to dry add more water, one tablespoon at a time.</li>
+            <li>Store in an airtight container or ziplock. Refrigerate for extra shelf life.</li>
+          </ol>
         </div>
       </section>
-    </main>
+    </main >
   );
 }
