@@ -24,22 +24,22 @@ const Teachers = () => {
           imagePosition="50% 15%"
           name="Ally Schwarz"
           role="Teacher Assistant"
-          description="Ally Schwarz will be assisting Jenn Dwyer in the 5-Day Classroom as well as holding the position of Co-Director of WRNS. Her last name may look familiar, she is the step-daughter of beloved retired Young Nursery teacher, Patty Schwarz. Ally fell in love with WRNS through helping out in her daughter's Young Nursery classroom and subbing in Big Nursery as head of the Substitute Team last year. Ally uses the tools and skills she learned through her higher education studies in anthropology and mental health counseling to interact with and care for children. She has also had several jobs and internships working with children. In her spare time, she loves to hike with her family and is a board member of the Crescent Trail Hiking Association. Ally is excited for this opportunity to join the wonderful WRNS community of teachers and parents working together to make the school function and thrive."
+          description="Ally Schwarz assists in the 5 Day Classroom and serves as Co Director of WRNS. Her last name may look familiar as she is the step daughter of beloved retired Young Nursery teacher Patty Schwarz. Ally first connected with WRNS through helping in her daughter's Young Nursery classroom and later through her work with the Substitute Team. She draws on her studies in anthropology and mental health counseling to support and understand children. Her professional experience includes a variety of roles and internships centered on youth. She enjoys hiking with her family and volunteers as a board member of the Crescent Trail Hiking Association."
           alignRight
         />
         <ProfileCard
           imageSrc="/images/teachers/kourtney.jpg"
-          imagePosition="80% 30%"
+          imagePosition="80% 40%"
           name="Kourtney Grant"
           role="Teacher"
-          description="Kourtney Grant is excited to join the Winton Road Nursery School staff after experiencing firsthand the impact of its nurturing, play-based environment. Her connection to the school began as a parent, and she was drawn to its thoughtful approach to early childhood education and strong sense of community. She holds a degree in Elementary Education and brings experience as both an educator, advocate, and a mom of three. With a background in American Sign Language and a passion for inclusive, hands-on learning, Kourtney creates a classroom where children feel safe, curious, and celebrated. She especially enjoys guiding young learners through art, music, nature, and imaginative play. Outside the classroom, Kourtney loves camping and hiking with her family, working in her garden, and getting lost in a good book. She's looking forward to partnering with Winton Road families during these joyful early years."
+          description="Kourtney Grant joined the Winton Road Nursery School staff after experiencing firsthand the impact of its nurturing, play-based environment. She brings experience as an educator, advocate, and parent of three. She uses American Sign Language and an inclusive, hands‑on approach to create classrooms where children feel safe, curious, and celebrated. She delights in guiding learners through art, music, nature, and imaginative play. Outside the classroom, Kourtney enjoys camping and hiking with her family, gardening, and getting lost in a good book."
         />
         <ProfileCard
           imageSrc="/images/teachers/gaoxia.jpg"
           imagePosition="50% 30%"
           name="Gaoxia Lan"
           role="Teacher Assistant"
-          description="Gaoxia joins WRNS as a teacher assistant in 2020, after her son completed his preschool at WRNS. She is always excited about being part of the WRNS staff as she would love to share the same level of genuine care and love that her son has received to the kids at WRNS. With a background in nursing, Gaoxia has the insight of individualized needs of each child. She believes every child is different with their own specialties. In her spare time, she is a photography enthusiast. She also enjoys being outdoors, watching her sons play sports."
+          description="Gaoxia Lan serves as a teacher assistant at WRNS, a role she pursued after her son completed his preschool experience at the school. She is enthusiastic about contributing to the caring environment that meant so much to her own family. With a background in nursing, Gaoxia brings strong insight into the individual needs of children. She believes every child has distinct strengths. In her spare time she enjoys photography, spending time outdoors, and watching her sons play sports."
           alignRight
         />
         <ProfileCard
@@ -47,7 +47,7 @@ const Teachers = () => {
           imagePosition="50% 25%"
           name="Sara Hensel"
           role="Teacher"
-          description="Sara Hensel is the proud parent of not one, not two, but three Winton Road Nursery School graduates, and joined the WRNS staff as a teacher in 2023. Sara began her career in higher education, serving at both the University of Miami, Florida, and later at RIT's Golisano Institute for Sustainability. In the classroom, she shares her passion for the environment, sustainable food systems and believes in the power of song to enrich the learning environment for students of all backgrounds. She is grateful for the many families who choose WRNS along their child's early education journey."
+          description="Sara Hensel is the proud parent of three WRNS graduates and brings her professional background in higher education to the classroom. Her career includes service at the University of Miami, Florida, and later at RIT's Golisano Institute for Sustainability. She enriches the classroom with her interests in the environment, sustainable food systems, and the power of song to support learning. She values the families who choose WRNS as part of their early education journey."
         />
         <ProfileCard
           imageSrc="/images/teachers/yeny.jpg"
@@ -62,11 +62,7 @@ const Teachers = () => {
           imagePosition="50% 33%"
           name="Timmery Bors-Koefoed"
           role="Teacher"
-          description="Timmery is excited to join Winton Road Nursery School. She studied early childhood education and development at
-        Saddleback College in California. Over the last 15 years she has worked as a preschool teacher, nanny, school
-        aid and children's program director. She has a passion for creating environements where children can thrive and
-        grow. She loves seeing the wonder of excitement as they explore the world around them. In her free time she
-        enjoys baking, cooking and all things outdoors."
+          description="Timmery Bors-Koefoed studied early childhood education and development at Saddleback College in California. She has spent more than 15 years working with young children as a preschool teacher, nanny, school aide, and children's program director. She is dedicated to creating environments where children can thrive and grow and loves witnessing their excitement as they explore the world around them. In her free time she enjoys baking, cooking, and spending time outdoors."
         />
 
         <ProfileCard
@@ -74,7 +70,7 @@ const Teachers = () => {
           imagePosition="50% 25%"
           name="Anna Carroll-Nellenback"
           role="Young Nursery Assistant"
-          description="Anna is very excited to join the WRNS staff as a Young Nursery Assistant! All 3 of her children attended Winton Road and her family has loved being a part of this school. Anna has a background in healthcare as an RN and is looking forward to supporting and nurturing all the children at WRNS as they learn and grow. In the classroom and with her own family, Anna love's helping with art projects, reading stories, and spending time outside."
+          description="Anna Carroll-Nellenback serves as a Young Nursery Assistant. All three of her children attended WRNS, and her family has long felt connected to the school community. Anna brings a background in healthcare as an RN and is committed to supporting and nurturing children as they learn and grow. She enjoys helping with art projects, reading stories, and spending time outside with both her students and her own family."
           alignRight
         />
       </section>
@@ -86,7 +82,7 @@ const Teachers = () => {
           imagePosition="50% 33%"
           name="Sarah Sevedge"
           role="Operations Manager"
-          description="After sending her daughter to WRNS in 2022 and 2023 while serving as board secretary and then board chair, she stepped into the role of Operations Manager starting in July 2024. Sarah holds a Masters in Music Education from the University of Buffalo and is a NYS certified educator. When she's not sending emails or updating spreadsheets, she's teaching piano, serving on local non-profit boards, playing dungeons & dragons, or reading a good book."
+          description="Sarah became familiar with WRNS through her daughter's time at the school and her service on the board as secretary and later chair. She now serves as Operations Manager. Sarah holds a Masters in Music Education from the University of Buffalo and is a NYS certified educator. When not managing operations, she teaches piano, serves on local nonprofit boards, plays Dungeons & Dragons, or enjoys a good book."
         />
       </section>
     </main>
