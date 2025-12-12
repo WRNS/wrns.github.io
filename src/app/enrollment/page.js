@@ -14,7 +14,7 @@ export default function Enrollment() {
 
       <section id="enrollment" className="section__layout enrollment">
         <div className="enrollment__container">
-          <Link className="document-links__link btn btn--icon caps" href="/docs/2025-2026 Enrollment Info Sheet.pdf">
+          <Link className="document-links__link btn btn--icon caps" href="/docs/2026-2027 Enrollment Info Sheet.pdf">
             <ReactSVG
               className="svg-icon--large"
               src="/svgs/pdf.svg"
