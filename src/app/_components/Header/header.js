@@ -86,9 +86,9 @@ const Header = () => {
       <header id="globalHeader" className={`globalHeader ${isPrimaryTextColor ? "header--invert" : ""}`}>
         {/* Don't show the Enroll link on the Enrollment page */}
         <div className="globalHeader__col-left">
-          {pathname !== "/enrollment" && (
-            <Link className="tourLink btn btn--underline caps" href="/enrollment">
-              <span>enroll now</span>
+          {pathname !== "/admissions" && (
+            <Link className="tourLink btn btn--underline caps" href="/admissions">
+              <span>apply now</span>
             </Link>
           )}
         </div>

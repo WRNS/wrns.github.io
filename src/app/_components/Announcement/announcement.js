@@ -14,6 +14,7 @@ const announcementIcons = {
   hiring: "🔍",
   promotion: "🎉",
   weather: "🌦️",
+  blank: "",
 };
 
 const Announcement = () => {
@@ -58,7 +59,7 @@ const Announcement = () => {
       id="announcement-banner"
       className={`announcement announcement--${announcement.type} ${!isVisible ? "announcement--hide" : ""}`}
     >
-      <span className="announcement__icon">{icon}</span>
+      {announcement.type && <span className="announcement__icon">{icon}</span>}
       <p
         className="announcement__message"
         dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(announcement.message) }}
