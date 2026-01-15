@@ -34,6 +34,10 @@
     line-height: mixins.$standard-line-height;
   }
 
+  @media (max-width: mixins.$mobile) {
+    padding: 0.5rem 1rem;
+  }
+
   .btn {
     &__close-button {
       @include mixins.Rubik;
@@ -43,11 +47,14 @@
 
       border: 0;
       background-color: transparent;
-      padding: 0.5rem;
+      padding: 0.25rem;
       margin: 0 0.5rem;
 
       position: relative;
-      top: -1rem;
+      top: -0.15rem;
+      right: 0;
+      align-self: flex-start;
+      justify-content: flex-end;
     }
   }
 }

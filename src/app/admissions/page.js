@@ -10,7 +10,7 @@ import { ReactSVG } from "react-svg";
 export default function Enrollment() {
   return (
     <main>
-      <Hero image={"/images/girls-on-steps.jpg"} title="Enrollment" imagePosition="75% 50%" />
+      <Hero image={"/images/girls-on-steps.jpg"} title="Admissions" imagePosition="75% 50%" />
 
       <section id="enrollment" className="section__layout enrollment">
         <div className="enrollment__container">
@@ -22,7 +22,7 @@ export default function Enrollment() {
                 svg.setAttribute("style", `fill: #fff`);
               }}
             />
-            <span className="btn__text-content">2025-2026 Enrollment Information</span>
+            <span className="btn__text-content">2025-2026 Admissions Information</span>
           </Link>
           <div className="number-heading">
             <div className="number-heading__box">1</div>
@@ -52,7 +52,7 @@ export default function Enrollment() {
           <p className="enrollment__text">
             Ready to join our community?{" "}
             <a href="https://www.jovial.org/wintonroad/hello" target="_blank">
-              Enroll online
+              Apply online
             </a>{" "}
             with Jovial and start your child&apos;s journey with us.
           </p>
@@ -70,7 +70,7 @@ export default function Enrollment() {
               objectFit: "cover",
             }}
           />
-          <h3>Important Enrollment Dates</h3>
+          <h3>Admissions Timeline</h3>
           <ul>
             <li>
               <strong className="primary">January 26:</strong> Registration for returning families begins.
