@@ -32,7 +32,7 @@ export default function Navigation({ closeMenu }) {
 
       <ul className="flyout-nav__menu">
         <li className="flyout-nav__menu--item">
-          <Link className="flyout-nav__link" href="/enrollment" onClick={closeNavMenu}>
+          <Link className="flyout-nav__link" href="/admissions" onClick={closeNavMenu}>
             Admissions
           </Link>
         </li>
