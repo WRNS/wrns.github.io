@@ -36,14 +36,14 @@
     "endDate": "2024-12-04"
   },
   {
-    "type": "alert",
-    "message": "<span class='caps'>Current Families</span> may begin applying through the <a href='https://www.jovial.org/wintonroad/family'>Family Portal</a> on January 27 @ 8am<br/><br/><span class='caps'>Alumni Families</span> may begin applying through the <a href='https://www.jovial.org/wintonroad/hello'>Hello Portal</a> on February 3 @ 8am<br/><br/><span class='caps'>New Families</span> may begin applying through the <a href='https://www.jovial.org/wintonroad/hello'>Hello Portal</a> on February 10 @ 8am",
-    "startDate": "2025-01-01",
-    "endDate": "2025-03-01"
-  },
-  {
     "message": "<h3>Open House at Winton Road Nursery School</h3><h4>Saturday, January 17, 2026</h4><h4>10:00 AM to 12:00 PM</h4><p>Tour our school, meet our teachers, and learn about our programs.</p><p>📍 220 Winton Road South, Rochester</p><p><a class=\"link\" href=\"/open-house\">Plan Your Visit →</a></p>",
     "startDate": "2025-12-24",
     "endDate": "2026-01-18"
+  },
+  {
+    "type": "alert",
+    "message": "<span class='caps'>Current Families</span> may begin applying through the <a href='https://www.jovial.org/wintonroad/family'>Family Portal</a> on January 26 @ 8am<br/><br/><span class='caps'>Alumni Families</span> may begin applying through the <a href='https://www.jovial.org/wintonroad/hello'>Hello Portal</a> on February 2 @ 8am<br/><br/><span class='caps'>New Families</span> may begin applying through the <a href='https://www.jovial.org/wintonroad/hello'>Hello Portal</a> on February 9 @ 8am",
+    "startDate": "2026-01-01",
+    "endDate": "2026-03-01"
   }
 ]
