@@ -1,6 +1,6 @@
 "use client";
 
-import "./enrollment.scss";
+import "./admissions.scss";
 
 import Hero from "@components/Hero/hero";
 import Image from "next/image";
@@ -22,7 +22,7 @@ export default function Enrollment() {
                 svg.setAttribute("style", `fill: #fff`);
               }}
             />
-            <span className="btn__text-content">2025-2026 Admissions Information</span>
+            <span className="btn__text-content">2026-2027 Admissions Information</span>
           </Link>
           <div className="number-heading">
             <div className="number-heading__box">1</div>
