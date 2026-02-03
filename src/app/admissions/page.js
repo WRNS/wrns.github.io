@@ -1,6 +1,6 @@
 "use client";
 
-import "./enrollment.scss";
+import "./admissions.scss";
 
 import Hero from "@components/Hero/hero";
 import Image from "next/image";
