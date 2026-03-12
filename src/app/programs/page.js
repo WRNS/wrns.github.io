@@ -28,12 +28,12 @@ export default function Programs() {
                 <tr>
                   <td>Monday and Tuesday</td>
                   <td>9:00am - 11:30am</td>
-                  <td>$1,853.00</td>
+                  <td>$1,946</td>
                 </tr>
                 <tr>
                   <td>Wednesday and Thursday</td>
                   <td>9:00am - 11:30am</td>
-                  <td>$1,853.00</td>
+                  <td>$1,946</td>
                 </tr>
               </tbody>
             </table>
@@ -65,7 +65,7 @@ export default function Programs() {
                     Tuesday and Thursday
                   </td>
                   <td>9:00am - 12:00 noon</td>
-                  <td>$1,608.00</td>
+                  <td>$1,689</td>
                 </tr>
                 <tr>
                   <td>
@@ -74,7 +74,7 @@ export default function Programs() {
                     Monday, Wednesday, Friday
                   </td>
                   <td>9:00am - 12:00 noon</td>
-                  <td>$2,412.00</td>
+                  <td>$2,533</td>
                 </tr>
                 <tr>
                   <td>
@@ -83,7 +83,7 @@ export default function Programs() {
                     Monday through Friday
                   </td>
                   <td>9:00am - 12:00 noon</td>
-                  <td>$4,020.00</td>
+                  <td>$4,221</td>
                 </tr>
               </tbody>
             </table>
