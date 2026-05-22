@@ -17,6 +17,12 @@ const announcementIcons = {
   blank: "",
 };
 
+const getEndOfDay = (dateString) => {
+  const date = new Date(dateString);
+  date.setHours(23, 59, 59, 999);
+  return date;
+};
+
 const Announcement = () => {
   const [announcement, setAnnouncement] = useState(null);
   const [isVisible, setIsVisible] = useState(false);
@@ -30,7 +36,7 @@ const Announcement = () => {
       const currentDate = new Date();
       const activeAnnouncements = announcementsData.filter(
         (announcement) =>
-          new Date(announcement.startDate) <= currentDate && currentDate <= new Date(announcement.endDate)
+          new Date(announcement.startDate) <= currentDate && currentDate <= getEndOfDay(announcement.endDate)
       );
 
       // Sort active announcements by start date in descending order and select the latest one

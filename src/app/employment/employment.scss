@@ -1,0 +1,63 @@
+@use "@styles/mixins";
+
+.employment {
+  &__content {
+    max-width: 840px;
+  }
+
+  &__button {
+    padding: 0.9rem 1.25rem;
+    margin-block: 1.5rem 0;
+    border-color: mixins.$primary;
+
+    &--apply {
+      margin-block: 1.5rem;
+    }
+  }
+
+  &__apply {
+    margin-top: 3rem;
+  }
+}
+
+.job-posting {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: mixins.$white;
+  border-left: 8px solid mixins.$primary;
+
+  &__eyebrow {
+    margin: 0;
+    color: mixins.$primary;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    margin-top: 0.5rem;
+  }
+
+  &__details {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1.5rem;
+
+    @media (min-width: mixins.$tablet) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    div {
+      padding: 1rem;
+      background: mixins.$light;
+    }
+
+    dt {
+      color: mixins.$primary;
+      font-weight: 700;
+    }
+
+    dd {
+      margin: 0.35rem 0 0;
+    }
+  }
+}

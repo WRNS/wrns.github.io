@@ -13,7 +13,7 @@ export default function OurSchool() {
           <h2 className="section__heading">Our History</h2>
           <div className="our-school__text">
             <p>
-              Founded in 1964, Winton Road Nursery School holds a permanent Charter issued by the New York State
+              Founded in 1963, Winton Road Nursery School holds a permanent Charter issued by the New York State
               Education Department. WRNS was founded on the concept of semi-cooperative nursery education. Parents are
               members of a non-profit, non-sectarian corporation that administers the school through an appointed Board
               of Trustees. Parents have the opportunity to guide their child&apos;s first school experience as they
