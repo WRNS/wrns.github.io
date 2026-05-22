@@ -1,1 +1,19 @@
 @use "@styles/mixins";
+
+.employment-callout {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+  &__content {
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: mixins.$standard-line-height;
+  }
+
+  &__button {
+    padding: 0.9rem 1.25rem;
+    margin-top: 1rem;
+    border-color: mixins.$primary;
+  }
+}

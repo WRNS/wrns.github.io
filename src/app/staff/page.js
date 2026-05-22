@@ -1,6 +1,7 @@
 import "./staff.scss";
 
 import Hero from "@components/Hero/hero";
+import Link from "next/link";
 import ProfileCard from "@components/ProfileCard/profileCard";
 import React from "react";
 
@@ -8,6 +9,19 @@ const Teachers = () => {
   return (
     <main>
       <Hero image={"/images/hungry-caterpillar.jpg"} title="Our Teachers" imagePosition="50% 33%" />
+
+      <section className="employment-callout section__layout">
+        <div className="employment-callout__content">
+          <h2 className="section__heading">Employment Opportunities</h2>
+          <p>
+            Winton Road Nursery School is accepting applications for a part-time Big Nursery Lead Teacher for the
+            2026-2027 school year.
+          </p>
+          <Link className="btn employment-callout__button" href="/employment">
+            View employment opportunities
+          </Link>
+        </div>
+      </section>
 
       <section className="teacher-profiles background-primary section__layout">
         <h2 className="section__heading">Meet the Teachers of Winton Road</h2>
@@ -41,13 +55,6 @@ const Teachers = () => {
           role="Teacher Assistant"
           description="Gaoxia Lan serves as a teacher assistant at WRNS, a role she pursued after her son completed his preschool experience at the school. She is enthusiastic about contributing to the caring environment that meant so much to her own family. With a background in nursing, Gaoxia brings strong insight into the individual needs of children. She believes every child has distinct strengths. In her spare time she enjoys photography, spending time outdoors, and watching her sons play sports."
           alignRight
-        />
-        <ProfileCard
-          imageSrc="/images/teachers/sara.jpg"
-          imagePosition="50% 25%"
-          name="Sara Hensel"
-          role="Teacher"
-          description="Sara Hensel is the proud parent of three WRNS graduates and brings her professional background in higher education to the classroom. Her career includes service at the University of Miami, Florida, and later at RIT's Golisano Institute for Sustainability. She enriches the classroom with her interests in the environment, sustainable food systems, and the power of song to support learning. She values the families who choose WRNS as part of their early education journey."
         />
         <ProfileCard
           imageSrc="/images/teachers/yeny.jpg"

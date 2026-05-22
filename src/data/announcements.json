@@ -45,5 +45,11 @@
     "message": "<span class='caps'>Current Families</span> may begin applying through the <a href='https://www.jovial.org/wintonroad/family'>Family Portal</a> on January 26 @ 8am<br/><br/><span class='caps'>Alumni Families</span> may begin applying through the <a href='https://www.jovial.org/wintonroad/hello'>Hello Portal</a> on February 2 @ 8am<br/><br/><span class='caps'>New Families</span> may begin applying through the <a href='https://www.jovial.org/wintonroad/hello'>Hello Portal</a> on February 9 @ 8am",
     "startDate": "2026-01-01",
     "endDate": "2026-03-01"
+  },
+  {
+    "type": "hiring",
+    "message": "Winton Road is seeking a part-time Lead Teacher for Big Nursery. <a class=\"link\" href=\"/employment\">Learn more about this opening</a>.",
+    "startDate": "2026-05-21",
+    "endDate": "2026-08-01"
   }
 ]
