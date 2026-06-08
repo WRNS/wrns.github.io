@@ -18,7 +18,7 @@ export default function Employment() {
             the Board of Directors.
           </p>
 
-          <article className="job-posting" aria-labelledby="job-opening-heading">
+          {/* <article className="job-posting" aria-labelledby="job-opening-heading">
             <p className="job-posting__eyebrow">Job Opening</p>
             <h3 id="job-opening-heading" className="job-posting__title">
               Lead Teacher - Big Nursery
@@ -58,7 +58,7 @@ export default function Employment() {
               <a href="mailto:jobs@wintonroad.org">jobs@wintonroad.org</a> with questions about this opening.
             </p>
             <p>Job offers are subject to a clear background check.</p>
-          </section>
+          </section> */}
         </div>
       </section>
     </main>
