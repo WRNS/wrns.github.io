@@ -11,14 +11,16 @@ export default function Employment() {
       <section className="employment section__layout">
         <div className="employment__content text-content">
           <h2 className="section__heading">Work With Winton Road</h2>
-          <p>
+          <p className="employment__description">
             Winton Road Nursery School is a non-profit, semi-cooperative nursery school founded in 1963 which focuses
             on play-based learning by encouraging creativity, exploration, and guided social activity. Teachers and
-            staff come to us with a variety of experience and career backgrounds. All final hiring decisions are made by
+            staff come to us with a variety of experience and career backgrounds.</p>
+          <p className="employment__description">
+            All final hiring decisions are made by
             the Board of Directors.
           </p>
 
-          <article className="job-posting" aria-labelledby="job-opening-heading">
+          {/* <article className="job-posting" aria-labelledby="job-opening-heading">
             <p className="job-posting__eyebrow">Job Opening</p>
             <h3 id="job-opening-heading" className="job-posting__title">
               Lead Teacher - Big Nursery
@@ -58,6 +60,11 @@ export default function Employment() {
               <a href="mailto:jobs@wintonroad.org">jobs@wintonroad.org</a> with questions about this opening.
             </p>
             <p>Job offers are subject to a clear background check.</p>
+          </section> */}
+
+          <section className="employment__contact" aria-labelledby="contact-heading">
+            <h3 id="contact-heading">Contact</h3>
+            <p className="employment__contact-text">We are not currently hiring. Please email employment inquiries to <a href="mailto:jobs@wintonroad.org">jobs@wintonroad.org</a>.</p>
           </section>
         </div>
       </section>

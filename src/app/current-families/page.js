@@ -38,7 +38,7 @@ export default function CurrentFamilies() {
         <h2 className="section__heading">Resources</h2>
         <ul className="parent-resources__list text-content">
           <li className="parent-resources__list-item">
-            <Link className="btn btn--icon btn--inverse" href="https://www.jovial.org/wintonroad/hello/sign/in">
+            <Link className="btn btn--icon btn--inverse" href="https://www.jovial.org/wintonroad/family">
               <ReactSVG
                 className="svg-icon--large"
                 src="/svgs/portal.svg"
@@ -54,7 +54,7 @@ export default function CurrentFamilies() {
           </li>
 
           <li className="parent-resources__list-item">
-            <Link className="btn btn--icon btn--inverse" href="/docs/wrns-calendar-2025-2026.pdf">
+            <Link className="btn btn--icon btn--inverse" href="/docs/26-27/2026-2027 WRNS Family Calendar.pdf">
               <ReactSVG
                 className="svg-icon--large"
                 src="/svgs/calendar.svg"
@@ -86,7 +86,7 @@ export default function CurrentFamilies() {
           </li>
 
           <li className="parent-resources__list-item">
-            <Link className="btn btn--icon btn--inverse" href="/docs/wrns-by-laws.pdf">
+            <Link className="btn btn--icon btn--inverse" href="/docs/26-27/Bylaws - Revised 2026.pdf">
               <ReactSVG
                 className="svg-icon--large"
                 src="/svgs/bylaws.svg"
