@@ -127,7 +127,7 @@ export default function Home() {
         </div>
 
         <div className="document-links">
-          <Link className="document-links__link btn btn--icon caps" href="/docs/wrns-by-laws.pdf">
+          <Link className="document-links__link btn btn--icon caps" href="/docs/26-27/Bylaws - Revised 2026.pdf">
             <ReactSVG
               className="svg-icon--large"
               src="/svgs/bylaws.svg"

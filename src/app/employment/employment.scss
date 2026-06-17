@@ -1,6 +1,7 @@
 @use "@styles/mixins";
 
 .employment {
+
   &__content {
     max-width: 840px;
   }
@@ -18,6 +19,7 @@
   &__apply {
     margin-top: 3rem;
   }
+
 }
 
 .job-posting {
