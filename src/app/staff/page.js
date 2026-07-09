@@ -57,6 +57,12 @@ const Teachers = () => {
           alignRight
         />
         <ProfileCard
+          imageSrc="/images/teachers/jessicaBarrios.png"
+          imagePosition="50% 50%"
+          name="Jessica Barrios"
+          role="Teacher"
+          description="Jessica has worked with children in both Florida and New York, and brings that experience to her classroom at WRNS. She is also the mother of two and has been an active volunteer in her children's schools, giving her a deep appreciation for the trust families place in early childhood teachers. Jessica brings warmth, compassion, and steady enthusiasm to her work with young children, supporting their growth through play, exploration, and caring relationships. Outside of school, she enjoys hiking, skiing, traveling, and spending time with her family."/>
+        <ProfileCard
           imageSrc="/images/teachers/yeny.jpg"
           imagePosition="50% 30%"
           name="Yeny Colon"
