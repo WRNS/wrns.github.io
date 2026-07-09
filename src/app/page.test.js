@@ -1,22 +1,21 @@
-import "@testing-library/jest-dom";
-
 import Homepage from "./page";
-import { render } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 
-describe("Page Component", () => {
-  beforeEach(() => {
-    // IntersectionObserver isn't available in test environment
-    const mockIntersectionObserver = jest.fn();
-    mockIntersectionObserver.mockReturnValue({
-      observe: () => null,
-      unobserve: () => null,
-      disconnect: () => null,
-    });
-    window.IntersectionObserver = mockIntersectionObserver;
-  });
+describe("Homepage", () => {
+  it("links to the important school documents", () => {
+    render(<Homepage />);
 
-  it("should render without crashing", () => {
-    const { container } = render(<Homepage />);
-    expect(container).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: /school by-laws/i })).toHaveAttribute(
+      "href",
+      "/docs/26-27/Bylaws - Revised 2026.pdf"
+    );
+    expect(screen.getByRole("link", { name: /parent's handbook/i })).toHaveAttribute(
+      "href",
+      "/docs/wrns-parent-handbook.pdf"
+    );
+    expect(screen.getByRole("link", { name: /description of committees/i })).toHaveAttribute(
+      "href",
+      "/docs/wrns-committees.pdf"
+    );
   });
 });
