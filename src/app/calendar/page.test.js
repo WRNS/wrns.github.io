@@ -6,7 +6,7 @@ import Calendar from "./page";
 describe("Calendar", () => {
   beforeEach(() => {
     jest.useFakeTimers();
-    jest.setSystemTime(new Date("2026-05-01T12:00:00"));
+    jest.setSystemTime(new Date("2027-05-01T12:00:00"));
   });
 
   afterEach(() => {
@@ -26,11 +26,11 @@ describe("Calendar", () => {
     render(<Calendar />);
 
     await user.selectOptions(screen.getByRole("combobox"), "all");
-    expect(await screen.findByRole("heading", { name: /fall work day/i })).toBeInTheDocument();
+    expect(await screen.findAllByRole("heading", { name: /fall work day/i })).toHaveLength(2);
 
     await user.selectOptions(screen.getByRole("combobox"), "February");
     await waitFor(() => {
-      expect(screen.getByRole("heading", { name: /fall registration opens \(alumni\)/i })).toBeInTheDocument();
+      expect(screen.getByRole("heading", { name: /applications open - alumni/i })).toBeInTheDocument();
       expect(screen.queryByRole("heading", { name: /fall work day/i })).not.toBeInTheDocument();
     });
   });
