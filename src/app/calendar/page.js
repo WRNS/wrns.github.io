@@ -6,7 +6,7 @@ import { useMemo, useState } from "react";
 
 import Events from "@components/Events/events";
 import Hero from "@components/Hero/hero";
-import calendarJSON from "@data/calendar25-26.json";
+import calendarJSON from "@data/calendar26-27.json";
 
 export default function Calendar() {
   const upcomingDaysLimit = 60;
@@ -103,7 +103,7 @@ export default function Calendar() {
       <Hero
         image={"/images/dragon.jpg"}
         title={"School Calendar"}
-        description={"2025-2026 School Year"}
+        description={"2026-2027 School Year"}
         imagePosition="50% 60%"
       />
 
