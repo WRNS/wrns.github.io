@@ -64,7 +64,7 @@ export default function CurrentFamilies() {
               />
               <div className="btn__text-content">
                 <strong className="btn--caps">Calendar</strong>
-                <span>2025-2026</span>
+                <span>2026-2027</span>
               </div>
             </Link>
           </li>
