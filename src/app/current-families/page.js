@@ -80,7 +80,7 @@ export default function CurrentFamilies() {
               />
               <div className="btn__text-content">
                 <strong className="btn--caps">School Structure</strong>
-                <span>Committee descriptions</span>
+                <span>2026-2027 committee descriptions</span>
               </div>
             </Link>
           </li>
@@ -112,7 +112,7 @@ export default function CurrentFamilies() {
               />
               <div className="btn__text-content">
                 <strong className="btn--caps">Parent&apos;s Handbook</strong>
-                <span>Resources for parents</span>
+                <span>2026-2027 resources for parents</span>
               </div>
             </Link>
           </li>

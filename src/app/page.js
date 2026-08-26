@@ -146,7 +146,7 @@ export default function Home() {
                 svg.setAttribute("style", `fill: #fff`);
               }}
             />
-            <span className="btn__text-content">Parent&apos;s Handbook</span>
+            <span className="btn__text-content">2026-2027 Parent&apos;s Handbook</span>
           </Link>
 
           <Link className="document-links__link btn btn--icon caps" href="/docs/wrns-committees.pdf">
@@ -157,7 +157,7 @@ export default function Home() {
                 svg.setAttribute("style", `fill: #fff`);
               }}
             />
-            <span className="btn__text-content">Description of Committees</span>
+            <span className="btn__text-content">2026-2027 Description of Committees</span>
           </Link>
         </div>
       </section>
