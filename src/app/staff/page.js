@@ -36,10 +36,10 @@ const Teachers = () => {
         <ProfileCard
           imageSrc="/images/teachers/ally.jpg"
           imagePosition="50% 15%"
-          name="Ally Schwarz"
+          name="Ally Boorman"
           role="Teacher Assistant"
-          description="Ally Schwarz assists in the 5 Day Classroom and serves as Co Director of WRNS. Her last name may look familiar as she is the step daughter of beloved retired Young Nursery teacher Patty Schwarz. Ally first connected with WRNS through helping in her daughter's Young Nursery classroom and later through her work with the Substitute Team. She draws on her studies in anthropology and mental health counseling to support and understand children. Her professional experience includes a variety of roles and internships centered on youth. She enjoys hiking with her family and volunteers as a board member of the Crescent Trail Hiking Association."
           alignRight
+          description="Ally Boorman assists in the 5 Day Classroom and serves as Co-Director of WRNS. Ally first connected with WRNS through helping in her daughter's Young Nursery classroom and later through her work with the Room Helper Team. She draws on her studies in anthropology and mental health counseling to support and understand each child. She loves engaging with children through imaginative play and connecting through reading stories (often in silly voices). She enjoys hiking, skiing, knitting/crocheting, Legos, and spending time with her husband and two daughters."
         />
         <ProfileCard
           imageSrc="/images/teachers/kourtney.jpg"
