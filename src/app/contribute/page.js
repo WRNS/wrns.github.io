@@ -2,22 +2,57 @@
 
 import "./contribute.scss";
 
-import { useEffect, useState } from "react";
-
 import Hero from "@components/Hero/hero";
+import Image from "next/image";
 import { ReactSVG } from "react-svg";
+import rocTheDayImage from "@public/images/promotions/roc-2026.png";
 
 export default function Contribute() {
-  const [cssPrimary, setCssPrimary] = useState("");
-
-  useEffect(() => {
-    const primaryColor = getComputedStyle(document.documentElement).getPropertyValue("--primary").trim();
-    setCssPrimary(primaryColor);
-  }, []);
-
   return (
     <main>
       <Hero image={"/images/volunteering.jpg"} title="Contribute" imagePosition="40% 30%" />
+
+      <section id="roc-the-day" className="roc-the-day section__layout" aria-labelledby="roc-the-day-heading">
+        <div className="text-content">
+          <h2 id="roc-the-day-heading" className="section__heading">Help WRNS ROC the Day!</h2>
+          <Image
+            src={rocTheDayImage}
+            alt="United Way’s ROC the Day — December 1, 2026"
+            className="roc-the-day__image"
+            sizes="(max-width: 800px) 80vw, 640px"
+          />
+          <p>
+            On <strong>Tuesday, December 1, 2026</strong>, Winton Road Nursery School will participate in ROC the Day,
+            a 24-hour giving event supporting local non-profit organizations. In 2025, the WRNS community raised
+            <strong> $1,760</strong> thanks to some fabulous ROCstars. This year, we hope to inspire even more ROCstars
+            to give to WRNS!
+          </p>
+          <div className="roc-the-day__goal">
+            <h3>Help our kiddos earn a pajama and stuffy party!</h3>
+            <p>Our goal: <strong>$250 and 20 donors</strong>. Help us meet or exceed both goals!</p>
+          </div>
+          <h3>How you can help us ROC the Day</h3>
+          <ul>
+            <li>Donate on December 1 through the link below.</li>
+            <li>Share the donation link with friends and family on December 1.</li>
+            <li>Share WRNS&apos;s posts on your own social media pages on December 1.</li>
+          </ul>
+          <p>
+            A donation of any amount makes WRNS eligible for hourly cash bonuses sponsored by the United Way and
+            Glover-Crask Charitable Trust. Share, share, share &mdash; visibility is key!
+          </p>
+          <p>
+            Donations will be accepted from <strong>12:00 AM to 11:59 PM on December 1</strong> through a secure online
+            platform. All donations directly support WRNS.
+          </p>
+          <div className="roc-the-day__actions">
+            <a className="btn roc-the-day__donate" href="https://www.unitedwayrocflx.org/roc-the-day/causes/WRNS">
+              Donate to WRNS on December 1
+            </a>
+            <a href="https://www.facebook.com/WintonRoadNurserySchool">Follow WRNS on Facebook and share our posts</a>
+          </div>
+        </div>
+      </section>
 
       <section id="donation" className="donation section__layout">
         <div className="text-content">
